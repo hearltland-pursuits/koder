@@ -185,19 +185,19 @@ a[href^="http"]::after {
 
 /* PDF link icon */
 a[href$=".pdf"]::before {
-  content: "📄 ";
+  content: " ";
 }
 ```
 
 **HTML:**
 ```html
 <a href="https://example.com">External Link</a> <!-- Shows ↗ after -->
-<a href="/document.pdf">Download PDF</a> <!-- Shows 📄 before -->
+<a href="/document.pdf">Download PDF</a> <!-- Shows  before -->
 ```
 
 **Result:**
 - "External Link ↗"
-- "📄 Download PDF"
+- " Download PDF"
 
 ---
 
@@ -457,7 +457,7 @@ li::marker {
 
 /* Custom bullet character */
 ul li::marker {
-  content: "✓ ";
+  content: "";
 }
 ```
 
@@ -471,8 +471,8 @@ ul li::marker {
 
 **Result:**
 ```
-✓ Item 1
-✓ Item 2
+Item 1
+Item 2
 ```
 
 **Allowed Properties:**
@@ -751,11 +751,11 @@ ol li::before {
 
 | Pseudo-Element | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------------|--------|---------|--------|------|-------|
-| `::before`, `::after` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full (with `:`) |
-| `::first-letter`, `::first-line` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `::selection` | ✅ All | ✅ All (`::-moz-selection`) | ✅ All | ✅ All | ✅ Full |
-| `::placeholder` | ✅ 57+ | ✅ 51+ | ✅ 10.1+ | ✅ 79+ | ⚠️ Prefix `-ms-` |
-| `::marker` | ✅ 86+ | ✅ 68+ | ✅ 11.1+ | ✅ 86+ | ❌ None |
+| `::before`, `::after` | All | All | All | All | Full (with `:`) |
+| `::first-letter`, `::first-line` | All | All | All | All | Full |
+| `::selection` | All | All (`::-moz-selection`) | All | All | Full |
+| `::placeholder` | 57+ | 51+ | 10.1+ | 79+ | Prefix `-ms-` |
+| `::marker` | 86+ | 68+ | 11.1+ | 86+ | None |
 
 **Fallback for ::before/::after in IE:**
 ```css
@@ -772,7 +772,7 @@ element:after { content: "..."; }
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always Include `content` Property**
    ```css
@@ -789,10 +789,10 @@ element:after { content: "..."; }
 2. **Use for Decorative Content Only**
    ```css
    /* Good: Decorative icon */
-   .icon::before { content: "📧"; }
+   .icon::before { content: ""; }
 
    /* Bad: Essential text (not accessible to screen readers) */
-   .email::before { content: "Email: "; } /* ❌ */
+   .email::before { content: "Email: "; } /* */
    ```
    **Why:** Pseudo-elements are invisible to screen readers and search engines.
 
@@ -822,7 +822,7 @@ element:after { content: "..."; }
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Adding Semantic Content with Pseudo-Elements**
    ```css
@@ -857,8 +857,8 @@ element:after { content: "..."; }
 3. **Using on Self-Closing Elements**
    ```css
    /* WON'T WORK on <img>, <input>, <br> */
-   img::before { content: "Icon"; } /* ❌ */
-   input::before { content: "Label"; } /* ❌ */
+   img::before { content: "Icon"; } /* */
+   input::before { content: "Label"; } /* */
    ```
    **Why Not:** Self-closing elements can't have content (no opening/closing tags).
 
@@ -866,7 +866,7 @@ element:after { content: "..."; }
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Section:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1920s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1920s)
 
@@ -907,7 +907,7 @@ Live coding demonstrations of common pseudo-element patterns, including icon inj
 
 ## Practice Exercise
 
-### 🎯 Challenge: Create a Styled Blockquote Component
+### Challenge: Create a Styled Blockquote Component
 
 **Objective:** Build a fancy blockquote using pseudo-elements for decorative quotation marks, author attribution, and a visual accent line.
 
@@ -1163,7 +1163,7 @@ body {
 **Previous:** [← Pseudo-Classes](pseudo-classes.md)
 **Next:** [Attribute Selectors →](attribute-selectors.md)
 **Up:** [↑ Back to Selectors Advanced](../README.md#8️⃣-selectors-advanced-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

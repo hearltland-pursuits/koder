@@ -490,7 +490,7 @@ grid-column: 2 / 4;  /* What is this? */
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use semantic area names**
    ```css
@@ -510,7 +510,7 @@ grid-column: 2 / 4;  /* What is this? */
 3. **Match columns/rows to areas**
    ```css
    grid-template-columns: 200px 1fr 200px; /* 3 columns */
-   grid-template-areas: "a b c";           /* 3 areas ✓ */
+   grid-template-areas: "a b c";           /* 3 areas */
    ```
 
 4. **Use dots for intentional gaps**
@@ -519,7 +519,7 @@ grid-column: 2 / 4;  /* What is this? */
      "logo . . . nav";  /* Centered spacing */
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Non-rectangular shapes**
    ```css
@@ -576,7 +576,7 @@ Use `grid-template-areas` and reorganize for mobile.
 **Previous:** [← Grid Items](grid-items.md)
 **Next:** [12-Column Grid →](grid-12-column.md)
 **Up:** [↑ Back to Grid](../README.md#7️⃣-grid-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

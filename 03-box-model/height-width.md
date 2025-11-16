@@ -154,7 +154,7 @@ Universal support across all browsers.
 
 ## Best Practices
 
-✅ **Use `max-width` for responsive containers**
+**Use `max-width` for responsive containers**
 ```css
 .container {
   width: 100%;
@@ -162,14 +162,14 @@ Universal support across all browsers.
 }
 ```
 
-✅ **Use `min-height` instead of `height` for flexibility**
+**Use `min-height` instead of `height` for flexibility**
 ```css
 .section {
   min-height: 100vh; /* Can grow if content exceeds */
 }
 ```
 
-❌ **Avoid fixed heights** (content may overflow)
+**Avoid fixed heights** (content may overflow)
 ```css
 /* Bad - content might overflow */
 .box { height: 200px; }

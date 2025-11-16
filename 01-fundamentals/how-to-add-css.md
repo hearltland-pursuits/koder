@@ -100,34 +100,34 @@ p {
 
 ### Advantages
 
-✅ **Reusability**
+**Reusability**
 - One stylesheet for entire website
 - Update `styles.css` → all pages update
 
-✅ **Caching**
+**Caching**
 - Browser caches CSS file
 - Faster subsequent page loads
 
-✅ **Organization**
+**Organization**
 - Separation of concerns (HTML = content, CSS = presentation)
 - Easier to maintain
 
-✅ **Collaboration**
+**Collaboration**
 - Designers work on CSS
 - Developers work on HTML
 - No conflicts
 
-✅ **Performance**
+**Performance**
 - Parallel loading (browser loads HTML and CSS simultaneously)
 - Smaller HTML files
 
 ### Disadvantages
 
-❌ **Extra HTTP Request**
+**Extra HTTP Request**
 - Initial page load requires fetching CSS file
 - Can delay rendering (use `rel="preload"` to optimize)
 
-❌ **Dependency**
+**Dependency**
 - HTML depends on external file
 - Broken link = broken styles
 
@@ -218,32 +218,32 @@ p {
 
 ### Advantages
 
-✅ **Self-Contained**
+**Self-Contained**
 - No external files needed
 - Easy to share single file
 
-✅ **No Extra HTTP Request**
+**No Extra HTTP Request**
 - Faster initial load (no CSS file fetch)
 
-✅ **Specific to Page**
+**Specific to Page**
 - Styles apply only to this HTML file
 - Useful for page-specific overrides
 
 ### Disadvantages
 
-❌ **Not Reusable**
+**Not Reusable**
 - Must copy styles to every page
 - Duplicate code across site
 
-❌ **No Caching**
+**No Caching**
 - CSS loaded with every page request
 - Slower subsequent loads
 
-❌ **Larger HTML Files**
+**Larger HTML Files**
 - HTML file contains all styles
 - Slower parsing
 
-❌ **Harder to Maintain**
+**Harder to Maintain**
 - Styles scattered across multiple HTML files
 - Changes require editing every file
 
@@ -296,36 +296,36 @@ p {
 
 ### Advantages
 
-✅ **Highest Specificity**
+**Highest Specificity**
 - Overrides external and internal CSS
 - Useful for dynamic JavaScript styles
 
-✅ **Immediate Application**
+**Immediate Application**
 - No parsing delay
 - Instant styling
 
-✅ **Element-Specific**
+**Element-Specific**
 - Precise control over single element
 
 ### Disadvantages
 
-❌ **Not Reusable**
+**Not Reusable**
 - Styles apply to one element only
 - Must duplicate for similar elements
 
-❌ **Messy HTML**
+**Messy HTML**
 - Mixes content with presentation
 - Harder to read and maintain
 
-❌ **No Caching**
+**No Caching**
 - Inline styles load with every HTML request
 
-❌ **Limited Functionality**
+**Limited Functionality**
 - Cannot use pseudo-classes (`:hover`, `:focus`)
 - Cannot use media queries
 - Cannot use keyframe animations
 
-❌ **Harder to Override**
+**Harder to Override**
 - Requires `!important` or more inline styles
 
 ### When to Use
@@ -571,7 +571,7 @@ All three methods work in every browser.
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use External CSS for Websites**
    ```html
@@ -599,7 +599,7 @@ All three methods work in every browser.
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Use Inline CSS for Everything**
    ```html
@@ -654,7 +654,7 @@ All three methods work in every browser.
 
 ## Practice Exercise
 
-### 🎯 Challenge: Convert Methods
+### Challenge: Convert Methods
 
 **Objective:** Take inline styles and convert to external CSS.
 

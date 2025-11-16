@@ -98,14 +98,14 @@ margin-top: calc(var(--base-spacing) * 2);
 
 - **Spaces required** around `+` and `-`:
   ```css
-  calc(100% - 20px)  /* ✓ Correct */
-  calc(100%-20px)    /* ✗ Invalid */
+  calc(100% - 20px)  /* Correct */
+  calc(100%-20px)    /* X Invalid */
   ```
 
 - **Spaces optional** for `*` and `/`:
   ```css
-  calc(100%/2)  /* ✓ Valid */
-  calc(100% / 2)  /* ✓ Also valid */
+  calc(100%/2)  /* Valid */
+  calc(100% / 2)  /* Also valid */
   ```
 
 - **Can nest** calc expressions:
@@ -529,7 +529,7 @@ h2 {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use clamp() for fluid sizing**
    ```css
@@ -552,7 +552,7 @@ h2 {
    font-size: clamp(16px, 3vw, 48px);
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't forget spaces in calc()**
    ```css
@@ -604,7 +604,7 @@ Create a responsive card component where:
 **Previous:** [← CSS Variables](css-variables.md)
 **Next:** [Custom Properties →](custom-properties.md)
 **Up:** [↑ Back to Modern CSS](../README.md#1️⃣3️⃣-modern-css-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

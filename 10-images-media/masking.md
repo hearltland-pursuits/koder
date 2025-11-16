@@ -340,7 +340,7 @@ section {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use clip-path for geometric shapes**
    ```css
@@ -364,7 +364,7 @@ section {
    clip-path: circle(50%);
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use for essential content visibility**
    ```css
@@ -413,7 +413,7 @@ Use `clip-path` for all three.
 **Previous:** [← Object-Fit](object-fit.md)
 **Next:** [Responsive Images →](responsive-images.md)
 **Up:** [↑ Back to Images & Media](../README.md#1️⃣0️⃣-images--media-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

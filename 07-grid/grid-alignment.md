@@ -573,7 +573,7 @@ nav {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `place-*` shorthands for brevity**
    ```css
@@ -597,7 +597,7 @@ nav {
    align-items: baseline; /* Aligns text baselines */
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't confuse items vs content**
    ```css
@@ -660,7 +660,7 @@ Create a modal dialog that:
 **Previous:** [← Grid Gaps](grid-gaps.md)
 **Next:** [Grid Items →](grid-items.md)
 **Up:** [↑ Back to Grid](../README.md#7️⃣-grid-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

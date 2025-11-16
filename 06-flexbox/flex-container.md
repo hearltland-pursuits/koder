@@ -299,7 +299,7 @@ nav ul {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use gap for spacing**
    ```css
@@ -318,7 +318,7 @@ nav ul {
    flex-wrap: wrap;
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Forgetting display: flex**
 2. **Using align-content without flex-wrap**
@@ -342,7 +342,7 @@ nav ul {
 **Previous:** [← Flexbox Introduction](flexbox-intro.md)
 **Next:** [Flex Items →](flex-items.md)
 **Up:** [↑ Back to Flexbox](../README.md#6️⃣-flexbox-4-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

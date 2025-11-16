@@ -31,7 +31,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
   width: 300px;
   padding: 20px;
   border: 5px solid black;
-  /* Actual width: 300 + 40 (padding) + 10 (border) = 350px ❌ */
+  /* Actual width: 300 + 40 (padding) + 10 (border) = 350px */
 }
 ```
 
@@ -192,7 +192,7 @@ html {
 ### Example 1: Problem Without Border-Box
 
 ```css
-/* ❌ Problem: Columns overflow container */
+/* Problem: Columns overflow container */
 .container {
   width: 900px;
 }
@@ -210,7 +210,7 @@ html {
 ### Example 2: Solution With Border-Box
 
 ```css
-/* ✅ Solution: Perfect fit */
+/* Solution: Perfect fit */
 .container {
   width: 900px;
 }
@@ -273,7 +273,7 @@ select {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use global border-box reset**
 ```css
@@ -303,17 +303,17 @@ select {
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't forget the reset**
 ```css
-/* ❌ Without box-sizing reset */
+/* Without box-sizing reset */
 .element {
   width: 300px;
   padding: 20px; /* Surprise! Actually 340px */
 }
 
-/* ✅ With box-sizing reset */
+/* With box-sizing reset */
 *,
 *::before,
 *::after {
@@ -328,12 +328,12 @@ select {
 
 **2. Don't use content-box intentionally**
 ```css
-/* ❌ Rarely needed */
+/* Rarely needed */
 .element {
   box-sizing: content-box;
 }
 
-/* ✅ Just use border-box */
+/* Just use border-box */
 .element {
   box-sizing: border-box;
 }
@@ -341,13 +341,13 @@ select {
 
 **3. Don't calculate widths manually**
 ```css
-/* ❌ Error-prone */
+/* Error-prone */
 .col {
   width: calc(33.333% - 40px); /* Accounting for padding */
   padding: 20px;
 }
 
-/* ✅ Let border-box handle it */
+/* Let border-box handle it */
 .col {
   box-sizing: border-box;
   width: 33.333%;
@@ -371,10 +371,10 @@ select {
 
 | Scenario | Content-Box | Border-Box |
 |----------|-------------|------------|
-| Set width: 300px, padding: 20px | Total: 340px | Total: 300px ✅ |
-| Set width: 50%, padding: 15px | May overflow | Exactly 50% ✅ |
-| Adding border later | Breaks layout | Still works ✅ |
-| Responsive grid | Manual calc needed | Just works ✅ |
+| Set width: 300px, padding: 20px | Total: 340px | Total: 300px |
+| Set width: 50%, padding: 15px | May overflow | Exactly 50% |
+| Adding border later | Breaks layout | Still works |
+| Responsive grid | Manual calc needed | Just works |
 
 ---
 
@@ -396,7 +396,7 @@ select {
   width: 200px;
   padding: 20px;
   border: 5px solid black;
-  /* Visual width: 200px ✅ */
+  /* Visual width: 200px */
   /* Content width: 150px */
 }
 ```

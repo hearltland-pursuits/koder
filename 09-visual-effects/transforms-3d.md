@@ -352,9 +352,9 @@ transform: rotate3d(1, 1, 0, 45deg);
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| 3D Transforms | ✅ 36+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ (prefix) |
-| `perspective` | ✅ 36+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ |
-| `transform-style` | ✅ 36+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 11+ |
+| 3D Transforms | 36+ | 16+ | 9+ | 12+ | 10+ (prefix) |
+| `perspective` | 36+ | 16+ | 9+ | 12+ | 10+ |
+| `transform-style` | 36+ | 16+ | 9+ | 12+ | 11+ |
 
 **Can I Use:** [https://caniuse.com/transforms3d](https://caniuse.com/transforms3d)
 
@@ -362,7 +362,7 @@ transform: rotate3d(1, 1, 0, 45deg);
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always Set Perspective on Parent**
    ```css
@@ -381,7 +381,7 @@ transform: rotate3d(1, 1, 0, 45deg);
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Forgetting `transform-style: preserve-3d`**
 2. **Using Too Low Perspective Values (distorted)**
@@ -408,7 +408,7 @@ transform: rotate3d(1, 1, 0, 45deg);
 
 ## Practice Exercise
 
-### 🎯 Challenge: Create a Flip Card Component
+### Challenge: Create a Flip Card Component
 
 **Requirements:**
 - [ ] Card flips on hover
@@ -423,7 +423,7 @@ transform: rotate3d(1, 1, 0, 45deg);
 **Previous:** [← 2D Transforms](transforms-2d.md)
 **Next:** [Transitions →](transitions.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

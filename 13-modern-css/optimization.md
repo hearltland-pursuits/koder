@@ -30,10 +30,10 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 - **CLS** (Cumulative Layout Shift): Visual stability
 
 **Impact on users:**
-- ✅ Faster page loads
-- ✅ Better mobile experience
-- ✅ Improved SEO rankings
-- ✅ Lower bounce rates
+- Faster page loads
+- Better mobile experience
+- Improved SEO rankings
+- Lower bounce rates
 
 ---
 
@@ -79,13 +79,13 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 ### Combine Files
 
 ```html
-<!-- ❌ Bad: Multiple requests -->
+<!-- Bad: Multiple requests -->
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="typography.css">
 <link rel="stylesheet" href="layout.css">
 <link rel="stylesheet" href="components.css">
 
-<!-- ✅ Good: Single request (or use HTTP/2) -->
+<!-- Good: Single request (or use HTTP/2) -->
 <link rel="stylesheet" href="styles.min.css">
 ```
 
@@ -119,7 +119,7 @@ module.exports = {
 ### Shorthand Properties
 
 ```css
-/* ❌ Verbose (more bytes) */
+/* Verbose (more bytes) */
 .element {
   margin-top: 10px;
   margin-right: 20px;
@@ -131,7 +131,7 @@ module.exports = {
   background-position: center;
 }
 
-/* ✅ Shorthand (fewer bytes) */
+/* Shorthand (fewer bytes) */
 .element {
   margin: 10px 20px;
   background: white url('bg.png') no-repeat center;
@@ -143,15 +143,15 @@ module.exports = {
 ### Compress Colors
 
 ```css
-/* ❌ Longer */
+/* Longer */
 color: #ffffff;
 background: #000000;
 
-/* ✅ Shorter */
+/* Shorter */
 color: #fff;
 background: #000;
 
-/* ✅ Even shorter for common colors */
+/* Even shorter for common colors */
 color: white; /* 5 bytes vs #fff (4 bytes) - depends on color */
 ```
 
@@ -228,19 +228,19 @@ critical.generate({
 ### Avoid Universal Selector
 
 ```css
-/* ❌ Slow: Applies to EVERY element */
+/* Slow: Applies to EVERY element */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* ✅ Better: Target specific elements */
+/* Better: Target specific elements */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
-/* ✅ Or use CSS reset library (once) */
+/* Or use CSS reset library (once) */
 ```
 
 ---
@@ -248,12 +248,12 @@ body, h1, h2, h3, p, ul, li {
 ### Avoid Deep Nesting
 
 ```css
-/* ❌ Slow: Browser reads right-to-left */
+/* Slow: Browser reads right-to-left */
 html body div.container section.content article.post p.text span.highlight {
   color: red;
 }
 
-/* ✅ Better: Use class */
+/* Better: Use class */
 .highlight-text {
   color: red;
 }
@@ -266,12 +266,12 @@ html body div.container section.content article.post p.text span.highlight {
 ### Prefer Classes Over Tags
 
 ```css
-/* ❌ Slower */
+/* Slower */
 div p span {
   color: blue;
 }
 
-/* ✅ Faster */
+/* Faster */
 .text-span {
   color: blue;
 }
@@ -282,12 +282,12 @@ div p span {
 ### Avoid Attribute Selectors with Wildcards
 
 ```css
-/* ❌ Very slow */
+/* Very slow */
 [class*="btn"] {
   padding: 10px;
 }
 
-/* ✅ Better: Specific class */
+/* Better: Specific class */
 .btn {
   padding: 10px;
 }
@@ -302,13 +302,13 @@ div p span {
 **Don't force reflow/repaint in loops.**
 
 ```javascript
-// ❌ Bad: Forces reflow on each iteration
+// Bad: Forces reflow on each iteration
 for (let i = 0; i < elements.length; i++) {
   elements[i].style.width = elements[i].offsetWidth + 10 + 'px';
   // Reading offsetWidth triggers layout calculation
 }
 
-// ✅ Good: Batch reads, then writes
+// Good: Batch reads, then writes
 const widths = elements.map(el => el.offsetWidth);
 for (let i = 0; i < elements.length; i++) {
   elements[i].style.width = widths[i] + 10 + 'px';
@@ -320,13 +320,13 @@ for (let i = 0; i < elements.length; i++) {
 ### Use transform Instead of position
 
 ```css
-/* ❌ Triggers layout */
+/* Triggers layout */
 .element {
   position: relative;
   left: 100px; /* Layout */
 }
 
-/* ✅ Only triggers composite (faster) */
+/* Only triggers composite (faster) */
 .element {
   transform: translateX(100px); /* Composite layer */
 }
@@ -355,13 +355,13 @@ for (let i = 0; i < elements.length; i++) {
 - `opacity`
 
 ```css
-/* ❌ Slow: Triggers layout */
+/* Slow: Triggers layout */
 @keyframes slideIn {
   from { left: -100px; }
   to { left: 0; }
 }
 
-/* ✅ Fast: Only composite */
+/* Fast: Only composite */
 @keyframes slideIn {
   from { transform: translateX(-100px); }
   to { transform: translateX(0); }
@@ -432,18 +432,18 @@ for (let i = 0; i < elements.length; i++) {
 ### Shadows and Filters
 
 ```css
-/* ⚠️ Expensive: Triggers repaint */
+/* Expensive: Triggers repaint */
 .card {
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   filter: blur(5px);
 }
 
-/* ✅ Optimize: Reduce blur radius, simplify shadows */
+/* Optimize: Reduce blur radius, simplify shadows */
 .card {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* ✅ Or use will-change hint */
+/* Or use will-change hint */
 .card {
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   will-change: box-shadow;
@@ -457,7 +457,7 @@ for (let i = 0; i < elements.length; i++) {
 **Hints to browser about upcoming changes** (creates composite layer).
 
 ```css
-/* ✅ Good: Element will be animated */
+/* Good: Element will be animated */
 .animated-element {
   will-change: transform, opacity;
 }
@@ -466,7 +466,7 @@ for (let i = 0; i < elements.length; i++) {
   transform: scale(1.1);
 }
 
-/* ❌ Bad: Too many elements */
+/* Bad: Too many elements */
 * {
   will-change: transform; /* Wastes GPU memory */
 }
@@ -478,7 +478,7 @@ for (let i = 0; i < elements.length; i++) {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Minify CSS in production**
    ```bash
@@ -518,7 +518,7 @@ for (let i = 0; i < elements.length; i++) {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use @import**
    ```css
@@ -637,7 +637,7 @@ Target: 90+ performance score
 **Previous:** [← At-Rules](at-rules.md)
 **Next:** [Accessibility →](accessibility.md)
 **Up:** [↑ Back to Modern CSS](../README.md#1️⃣3️⃣-modern-css-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

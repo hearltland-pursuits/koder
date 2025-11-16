@@ -396,10 +396,10 @@ Use `and`, `or` (`,`), and `not` to combine conditions.
 ```
 
 **Benefits:**
-- ✅ Mobile traffic is majority—prioritize it
-- ✅ Easier to add features than remove them
-- ✅ Faster mobile load (less CSS to override)
-- ✅ Aligns with Google's Mobile-First Indexing
+- Mobile traffic is majority—prioritize it
+- Easier to add features than remove them
+- Faster mobile load (less CSS to override)
+- Aligns with Google's Mobile-First Indexing
 
 ---
 
@@ -445,7 +445,7 @@ Use `and`, `or` (`,`), and `not` to combine conditions.
 ```html
 <nav class="navbar">
   <div class="logo">Logo</div>
-  <button class="menu-toggle">☰</button>
+  <button class="menu-toggle">Menu</button>
   <ul class="nav-links">
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
@@ -656,8 +656,8 @@ h1 { font-size: 28px; }
 | Basic Media Queries | 4+ | 3.5+ | 4+ | 12+ | 9+ |
 | `min-width/max-width` | 4+ | 3.5+ | 4+ | 12+ | 9+ |
 | `orientation` | 4+ | 3.5+ | 5+ | 12+ | 9+ |
-| `prefers-color-scheme` | 76+ | 67+ | 12.1+ | 79+ | ❌ |
-| `hover`/`pointer` | 41+ | 64+ | 9+ | 12+ | ❌ |
+| `prefers-color-scheme` | 76+ | 67+ | 12.1+ | 79+ | |
+| `hover`/`pointer` | 41+ | 64+ | 9+ | 12+ | |
 
 **Key Takeaway:** Basic media queries work everywhere. Modern features (dark mode, hover) have excellent support except IE.
 
@@ -665,7 +665,7 @@ h1 { font-size: 28px; }
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use Mobile-First Approach**
    ```css
@@ -699,7 +699,7 @@ h1 { font-size: 28px; }
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Target Specific Devices**
    ```css
@@ -757,7 +757,7 @@ h1 { font-size: 28px; }
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Responsive Card Layout
+### Challenge: Build a Responsive Card Layout
 
 **Requirements:**
 - [ ] 1 column on mobile

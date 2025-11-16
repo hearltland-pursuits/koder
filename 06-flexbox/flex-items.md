@@ -287,7 +287,7 @@ nav {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use flex shorthand**
    ```css
@@ -309,7 +309,7 @@ nav {
    }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Using width with flex-basis**
    ```css
@@ -346,7 +346,7 @@ nav {
 **Previous:** [← Flex Container](flex-container.md)
 **Next:** [Flex Responsive →](flex-responsive.md)
 **Up:** [↑ Back to Flexbox](../README.md#6️⃣-flexbox-4-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

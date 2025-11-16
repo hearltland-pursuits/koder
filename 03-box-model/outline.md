@@ -27,11 +27,11 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 **Outline:** A line drawn around elements OUTSIDE the border that doesn't affect page layout.
 
 **Key differences from borders:**
-- ❌ Doesn't take up space (no layout impact)
-- ❌ Can't set different sides individually
-- ❌ Doesn't respect `border-radius` (always rectangular)
-- ✅ Perfect for focus indicators
-- ✅ Doesn't cause layout shifts
+- Doesn't take up space (no layout impact)
+- Can't set different sides individually
+- Doesn't respect `border-radius` (always rectangular)
+- Perfect for focus indicators
+- Doesn't cause layout shifts
 
 ---
 
@@ -58,9 +58,9 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 | Feature | Border | Outline |
 |---------|--------|---------|
-| **Affects layout** | ✅ Yes | ❌ No |
-| **Individual sides** | ✅ Yes | ❌ No |
-| **Border radius** | ✅ Yes | ❌ No |
+| **Affects layout** | Yes | No |
+| **Individual sides** | Yes | No |
+| **Border radius** | Yes | No |
 | **Inside/Outside** | Inside margin | Outside border |
 | **Use case** | Visual structure | Focus indicators |
 
@@ -238,7 +238,7 @@ button:focus {
 
 **CRITICAL:** Never remove outlines without providing alternatives
 
-### ❌ BAD: Removing Outlines
+### BAD: Removing Outlines
 
 ```css
 /* VERY BAD - breaks keyboard navigation */
@@ -247,7 +247,7 @@ button:focus {
 }
 ```
 
-### ✅ GOOD: Custom Accessible Outlines
+### GOOD: Custom Accessible Outlines
 
 ```css
 /* Good - custom outline */
@@ -361,8 +361,8 @@ button:focus {
 | Property | Chrome | Firefox | Safari | Edge | IE |
 |----------|--------|---------|--------|------|-----|
 | `outline` | 1+ | 1.5+ | 1.2+ | 12+ | 8+ |
-| `outline-offset` | 1+ | 1.5+ | 1.2+ | 12+ | ❌ |
-| `:focus-visible` | 86+ | 85+ | 15.4+ | 86+ | ❌ |
+| `outline-offset` | 1+ | 1.5+ | 1.2+ | 12+ | |
+| `:focus-visible` | 86+ | 85+ | 15.4+ | 86+ | |
 
 **Note:** `outline-offset` not supported in IE.
 
@@ -370,7 +370,7 @@ button:focus {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Always provide focus indicators**
 ```css
@@ -408,11 +408,11 @@ button:focus {
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Never remove outlines globally**
 ```css
-/* ❌ NEVER DO THIS - accessibility nightmare */
+/* NEVER DO THIS - accessibility nightmare */
 * {
   outline: none !important;
 }
@@ -420,12 +420,12 @@ button:focus {
 
 **2. Don't use outlines for visual design**
 ```css
-/* ❌ Bad - use borders instead */
+/* Bad - use borders instead */
 .card {
   outline: 1px solid #ddd; /* Should be border */
 }
 
-/* ✅ Good */
+/* Good */
 .card {
   border: 1px solid #ddd;
 }
@@ -433,12 +433,12 @@ button:focus {
 
 **3. Don't rely on outline for layout**
 ```css
-/* ❌ Bad - outline doesn't affect layout */
+/* Bad - outline doesn't affect layout */
 .spacer {
   outline: 20px solid transparent; /* Won't create space */
 }
 
-/* ✅ Good - use margin/padding */
+/* Good - use margin/padding */
 .spacer {
   margin: 20px;
 }

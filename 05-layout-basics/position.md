@@ -614,7 +614,7 @@ body {
 | Property | Chrome | Firefox | Safari | Edge | IE |
 |----------|--------|---------|--------|------|----|
 | `static`, `relative`, `absolute`, `fixed` | 1+ | 1+ | 1+ | 12+ | 4+ |
-| `sticky` | 56+ | 32+ | 13+ | 16+ | ❌ No |
+| `sticky` | 56+ | 32+ | 13+ | 16+ | No |
 | `z-index` | 1+ | 1+ | 1+ | 12+ | 4+ |
 
 **Note:** `position: sticky` is modern. Use fallbacks for older browsers.
@@ -623,7 +623,7 @@ body {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use Relative Parent for Absolute Children**
    ```css
@@ -662,7 +662,7 @@ body {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Forget Positioning Context**
    ```css
@@ -717,7 +717,7 @@ body {
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Fixed Header with Sticky Sidebar
+### Challenge: Build a Fixed Header with Sticky Sidebar
 
 **Requirements:**
 - [ ] Fixed navigation bar at top

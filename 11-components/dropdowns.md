@@ -521,7 +521,7 @@ dropdown.addEventListener('keydown', function(e) {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `position: relative` on container**
    ```css
@@ -550,7 +550,7 @@ dropdown.addEventListener('keydown', function(e) {
    <button aria-haspopup="true" aria-expanded="false">
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Hover-only on mobile**
    ```css
@@ -598,7 +598,7 @@ Create a dropdown menu that:
 **Previous:** [← Buttons](buttons.md)
 **Next:** [Tooltips →](tooltips.md)
 **Up:** [↑ Back to Components](../README.md#1️⃣1️⃣-components-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

@@ -385,7 +385,7 @@ Right:    [Element] ──►┌──────┐
   class="tooltip"
   data-tooltip="Save your changes"
   aria-label="Save your changes">
-  💾
+  
 </button>
 ```
 
@@ -414,17 +414,17 @@ Right:    [Element] ──►┌──────┐
 ```html
 <!-- Option 1: Use aria-label (hides tooltip from screen readers) -->
 <button aria-label="Delete item">
-  🗑️
+  
 </button>
 
 <!-- Option 2: Use title attribute (screen readers announce it) -->
 <button title="Delete item">
-  🗑️
+  
 </button>
 
 <!-- Option 3: Visually hidden text -->
 <button>
-  🗑️
+  
   <span class="sr-only">Delete item</span>
 </button>
 ```
@@ -625,7 +625,7 @@ Right:    [Element] ──►┌──────┐
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `attr(data-tooltip)` for content**
    ```css
@@ -653,7 +653,7 @@ Right:    [Element] ──►┌──────┐
    <span aria-label="Description">ℹ️</span>
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Tooltips on mobile (hover doesn't work)**
    ```css
@@ -707,7 +707,7 @@ Create a tooltip system that:
 **Previous:** [← Dropdowns](dropdowns.md)
 **Next:** [Pagination →](pagination.md)
 **Up:** [↑ Back to Components](../README.md#1️⃣1️⃣-components-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

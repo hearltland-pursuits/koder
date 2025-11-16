@@ -366,7 +366,7 @@ double: ══════════════
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use Subtle Borders for Cards**
    ```css
@@ -394,7 +394,7 @@ double: ══════════════
    }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Forget `border-style`**
    ```css

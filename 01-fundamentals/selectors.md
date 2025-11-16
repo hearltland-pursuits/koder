@@ -131,7 +131,7 @@ p {
 
 ### When to Use Element Selectors
 
-✅ **Good for:**
+**Good for:**
 - Setting base styles for common elements
 - Establishing typography defaults
 - Resetting default browser styles
@@ -143,7 +143,7 @@ h1 { font-size: 32px; }
 a { color: blue; text-decoration: none; }
 ```
 
-❌ **Avoid for:**
+**Avoid for:**
 - Styling specific instances (use classes instead)
 - Complex targeting (use advanced selectors)
 
@@ -258,7 +258,7 @@ HTML elements can have multiple classes:
 
 ### When to Use Class Selectors
 
-✅ **Primary use case for styling**
+**Primary use case for styling**
 
 Classes are the **workhorse of CSS**. Use them for:
 - Reusable styles
@@ -329,7 +329,7 @@ Classes are the **workhorse of CSS**. Use them for:
 
 ### When to Use ID Selectors
 
-⚠️ **Use sparingly for CSS**
+**Use sparingly for CSS**
 
 **Good for:**
 - JavaScript targeting
@@ -396,12 +396,12 @@ The universal selector is commonly used to reset default browser styles:
 
 ### When to Use Universal Selector
 
-✅ **Good for:**
+**Good for:**
 - CSS resets
 - Applying `box-sizing` globally
 - Setting base font properties
 
-❌ **Avoid for:**
+**Avoid for:**
 - Specific styling (too broad)
 - Performance-critical animations (use specific selectors)
 
@@ -465,7 +465,7 @@ h1,
 
 ### When to Use Grouping
 
-✅ **Perfect for:**
+**Perfect for:**
 - Shared base styles
 - Reducing repetition
 - Keeping CSS DRY (Don't Repeat Yourself)
@@ -842,7 +842,7 @@ All basic selectors have been supported since the earliest browsers.
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Prefer Classes for Styling**
    ```css
@@ -890,7 +890,7 @@ All basic selectors have been supported since the earliest browsers.
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Overuse IDs for Styling**
    ```css
@@ -931,7 +931,7 @@ All basic selectors have been supported since the earliest browsers.
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Selectors Section:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1200s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1200s)
 
@@ -971,7 +971,7 @@ This section covers all basic CSS selectors with live coding examples. You'll se
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Product Card with Multiple Selectors
+### Challenge: Build a Product Card with Multiple Selectors
 
 **Objective:** Create a product card using element, class, and grouping selectors to practice targeting elements.
 
@@ -1142,7 +1142,7 @@ The featured product has:
 **Previous:** [← CSS Syntax](syntax.md)
 **Next:** [How to Add CSS →](how-to-add-css.md)
 **Up:** [↑ Back to Fundamentals](../)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

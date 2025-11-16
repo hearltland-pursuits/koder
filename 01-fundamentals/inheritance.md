@@ -358,11 +358,11 @@ button {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use inheritance to reduce code**
 ```css
-/* ✅ Good - set once on body */
+/* Good - set once on body */
 body {
   font-family: Arial, sans-serif;
   color: #333;
@@ -374,12 +374,12 @@ body {
 
 **2. Keep specificity low**
 ```css
-/* ✅ Good - easy to override */
+/* Good - easy to override */
 .button {
   color: blue;
 }
 
-/* ❌ Bad - hard to override */
+/* Bad - hard to override */
 #header nav ul li a.button {
   color: blue;
 }
@@ -387,7 +387,7 @@ body {
 
 **3. Understand cascade order**
 ```css
-/* ✅ Good - organized by specificity */
+/* Good - organized by specificity */
 /* 1. Elements */
 p { }
 
@@ -398,17 +398,17 @@ p { }
 #main { }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't abuse !important**
 ```css
-/* ❌ Bad - makes everything harder */
+/* Bad - makes everything harder */
 .button {
   color: blue !important;
   padding: 10px !important;
 }
 
-/* ✅ Good - fix specificity instead */
+/* Good - fix specificity instead */
 .header .nav .button {
   color: blue;
 }
@@ -416,12 +416,12 @@ p { }
 
 **2. Don't use overly specific selectors**
 ```css
-/* ❌ Bad - too specific */
+/* Bad - too specific */
 body div.container div.row div.col p.text {
   color: blue;
 }
 
-/* ✅ Good */
+/* Good */
 .text {
   color: blue;
 }
@@ -429,12 +429,12 @@ body div.container div.row div.col p.text {
 
 **3. Don't fight inheritance**
 ```css
-/* ❌ Bad - repeating inherited values */
+/* Bad - repeating inherited values */
 body { font-family: Arial; }
 p { font-family: Arial; }
 span { font-family: Arial; }
 
-/* ✅ Good - let inheritance work */
+/* Good - let inheritance work */
 body { font-family: Arial; }
 /* Everything else inherits automatically */
 ```
@@ -445,14 +445,14 @@ body { font-family: Arial; }
 
 | Property Type | Inherits? |
 |--------------|-----------|
-| Typography (font, color, text) | ✅ Yes |
-| Box Model (padding, margin, border) | ❌ No |
-| Positioning (position, top, left) | ❌ No |
-| Background (color, image) | ❌ No |
-| Display (flex, grid, block) | ❌ No |
-| List styles | ✅ Yes |
-| Table styles | ✅ Yes |
-| Visibility | ✅ Yes |
+| Typography (font, color, text) | Yes |
+| Box Model (padding, margin, border) | No |
+| Positioning (position, top, left) | No |
+| Background (color, image) | No |
+| Display (flex, grid, block) | No |
+| List styles | Yes |
+| Table styles | Yes |
+| Visibility | Yes |
 
 ---
 
@@ -463,9 +463,9 @@ body { font-family: Arial; }
 | Inheritance | 1+ | 1+ | 1+ | 12+ | 3+ |
 | Cascade | 1+ | 1+ | 1+ | 12+ | 3+ |
 | `inherit` | 1+ | 1+ | 1+ | 12+ | 8+ |
-| `initial` | 1+ | 1+ | 1.2+ | 12+ | ❌ |
-| `unset` | 41+ | 27+ | 9.1+ | 13+ | ❌ |
-| `revert` | 84+ | 67+ | 9.1+ | 84+ | ❌ |
+| `initial` | 1+ | 1+ | 1.2+ | 12+ | |
+| `unset` | 41+ | 27+ | 9.1+ | 13+ | |
+| `revert` | 84+ | 67+ | 9.1+ | 84+ | |
 
 ---
 

@@ -133,7 +133,7 @@ Universal support across all browsers.
 
 ## Best Practices
 
-✅ **Use `overflow: auto` for scrolling**
+**Use `overflow: auto` for scrolling**
 ```css
 .scrollable {
   max-height: 500px;
@@ -141,7 +141,7 @@ Universal support across all browsers.
 }
 ```
 
-✅ **Use `overflow: hidden` to crop content**
+**Use `overflow: hidden` to crop content**
 ```css
 .image-container {
   overflow: hidden;
@@ -149,7 +149,7 @@ Universal support across all browsers.
 }
 ```
 
-❌ **Don't use `overflow: scroll`**
+**Don't use `overflow: scroll`**
 ```css
 /* Bad - always shows scrollbars */
 .element { overflow: scroll; }

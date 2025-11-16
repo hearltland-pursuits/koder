@@ -507,7 +507,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `object-fit: cover` for consistent sizing**
    ```css
@@ -531,7 +531,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
         src="medium.jpg" alt="Photo">
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't load full-size images for thumbnails**
    ```html
@@ -582,7 +582,7 @@ Create a responsive photo gallery with:
 **Previous:** [← Image Styling](image-styling.md)
 **Next:** [Image Sprites →](image-sprites.md)
 **Up:** [↑ Back to Images & Media](../README.md#1️⃣0️⃣-images--media-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

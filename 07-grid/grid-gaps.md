@@ -162,10 +162,10 @@ column-gap: 30px
 ```
 
 **Benefits:**
-- ✅ No margin on outer edges
-- ✅ No need for `:last-child` or `:nth-child` selectors
-- ✅ Cleaner, simpler code
-- ✅ Works with wrapping grids
+- No margin on outer edges
+- No need for `:last-child` or `:nth-child` selectors
+- Cleaner, simpler code
+- Works with wrapping grids
 
 ### Using Margin (Old Way)
 
@@ -182,10 +182,10 @@ column-gap: 30px
 ```
 
 **Problems:**
-- ❌ Margins on outer edges
-- ❌ Complex calculations
-- ❌ Negative margin on container required
-- ❌ Harder to maintain
+- Margins on outer edges
+- Complex calculations
+- Negative margin on container required
+- Harder to maintain
 
 **Visual Comparison:**
 ```
@@ -452,7 +452,7 @@ column-gap: 30px;
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use modern `gap` syntax**
    ```css
@@ -477,7 +477,7 @@ column-gap: 30px;
    gap: clamp(10px, 2vw, 30px);
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use margins on grid items for spacing**
    ```css
@@ -541,7 +541,7 @@ Create a responsive photo gallery with:
 **Previous:** [← Grid Tracks](grid-tracks.md)
 **Next:** [Grid Alignment →](grid-alignment.md)
 **Up:** [↑ Back to Grid](../README.md#7️⃣-grid-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

@@ -27,10 +27,10 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 **Mobile-first design** starts with the mobile experience as the baseline, then adds features for tablets and desktops. This approach is superior to desktop-first because:
 
-✅ **Simpler:** Mobile designs are minimal (fewer features to break)
-✅ **Faster:** Mobile devices load less CSS
-✅ **Scalable:** Easier to add than remove
-✅ **Future-proof:** Works for smartwatches, new devices
+**Simpler:** Mobile designs are minimal (fewer features to break)
+**Faster:** Mobile devices load less CSS
+**Scalable:** Easier to add than remove
+**Future-proof:** Works for smartwatches, new devices
 
 **Philosophy:** "Start small, enhance progressively."
 
@@ -619,7 +619,7 @@ p {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Start with mobile styles (no media query)**
    ```css
@@ -654,7 +654,7 @@ p {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't mix mobile-first and desktop-first**
    ```css
@@ -721,7 +721,7 @@ Convert a desktop-first layout to mobile-first:
 **Previous:** [← Responsive Videos](responsive-videos.md)
 **Next:** [Modern CSS →](../13-modern-css/css-functions.md)
 **Up:** [↑ Back to Responsive Design](../README.md#1️⃣2️⃣-responsive-design-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

@@ -520,14 +520,14 @@ nav a:hover {
 | `text-align` | 1+ | 1+ | 1+ | 12+ | 3+ |
 | `margin: auto` | 1+ | 1+ | 1+ | 12+ | 6+ |
 | Flexbox | 29+ | 28+ | 9+ | 12+ | 11+ |
-| Grid | 57+ | 52+ | 10.1+ | 16+ | ❌ |
+| Grid | 57+ | 52+ | 10.1+ | 16+ | |
 | Absolute + transform | 36+ | 16+ | 9+ | 12+ | 9+ |
 
 ---
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use Flexbox for most centering**
 ```css
@@ -564,11 +564,11 @@ nav a:hover {
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't use absolute positioning as first choice**
 ```css
-/* ❌ Old-school, fragile */
+/* Old-school, fragile */
 .center {
   position: absolute;
   top: 50%;
@@ -576,7 +576,7 @@ nav a:hover {
   transform: translate(-50%, -50%);
 }
 
-/* ✅ Modern, robust */
+/* Modern, robust */
 .center {
   display: flex;
   justify-content: center;
@@ -586,13 +586,13 @@ nav a:hover {
 
 **2. Don't use line-height for multi-line text**
 ```css
-/* ❌ Breaks with multiple lines */
+/* Breaks with multiple lines */
 .box {
   height: 100px;
   line-height: 100px;
 }
 
-/* ✅ Works for any content */
+/* Works for any content */
 .box {
   display: flex;
   align-items: center;
@@ -602,14 +602,14 @@ nav a:hover {
 
 **3. Don't forget to set parent height**
 ```css
-/* ❌ Vertical centering won't work */
+/* Vertical centering won't work */
 .container {
   display: flex;
   align-items: center;
   /* No height! */
 }
 
-/* ✅ Set min-height */
+/* Set min-height */
 .container {
   display: flex;
   align-items: center;

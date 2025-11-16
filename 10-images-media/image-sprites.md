@@ -28,10 +28,10 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 **Image sprites** are single image files containing multiple smaller images. Instead of loading 20 separate icon files, you load one sprite sheet and display portions using CSS.
 
 **Benefits:**
-- ✅ Fewer HTTP requests (faster page load)
-- ✅ Smaller total file size (compression efficiency)
-- ✅ No flicker on hover states (image already loaded)
-- ✅ Easier cache management (one file to cache)
+- Fewer HTTP requests (faster page load)
+- Smaller total file size (compression efficiency)
+- No flicker on hover states (image already loaded)
+- Easier cache management (one file to cache)
 
 **Use cases:**
 - Icon sets
@@ -363,7 +363,7 @@ With HTTP/2, multiple file requests are less expensive, reducing sprite benefits
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use PNG for icons with transparency**
    ```css
@@ -388,7 +388,7 @@ With HTTP/2, multiple file requests are less expensive, reducing sprite benefits
    - Icon fonts for scalability
    - Individual files with HTTP/2
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't put unrelated images together**
    ```css
@@ -451,7 +451,7 @@ Create a sprite sheet with 6 social media icons:
 **Previous:** [← Image Gallery](image-gallery.md)
 **Next:** [Object-Fit →](object-fit.md)
 **Up:** [↑ Back to Images & Media](../README.md#1️⃣0️⃣-images--media-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

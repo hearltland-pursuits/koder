@@ -532,7 +532,7 @@ grid-column: -3 / -1 spans last 2 columns
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `span` for flexible sizing**
    ```css
@@ -559,7 +559,7 @@ grid-column: -3 / -1 spans last 2 columns
    }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Hardcoding line numbers unnecessarily**
    ```css
@@ -628,7 +628,7 @@ Create a blog post layout with:
 **Previous:** [← Grid Alignment](grid-alignment.md)
 **Next:** [Grid Named Areas →](grid-named-areas.md)
 **Up:** [↑ Back to Grid](../README.md#7️⃣-grid-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

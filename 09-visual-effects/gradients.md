@@ -627,10 +627,10 @@ body {
 
 | Gradient Type | Chrome | Firefox | Safari | Edge | IE 11 |
 |---------------|--------|---------|--------|------|-------|
-| `linear-gradient()` | ✅ 26+ | ✅ 16+ | ✅ 6.1+ | ✅ 12+ | ✅ 10+ (prefix) |
-| `radial-gradient()` | ✅ 26+ | ✅ 16+ | ✅ 6.1+ | ✅ 12+ | ✅ 10+ (prefix) |
-| `conic-gradient()` | ✅ 69+ | ✅ 83+ | ✅ 12.1+ | ✅ 79+ | ❌ None |
-| `repeating-*-gradient()` | ✅ 26+ | ✅ 16+ | ✅ 6.1+ | ✅ 12+ | ✅ 10+ (prefix) |
+| `linear-gradient()` | 26+ | 16+ | 6.1+ | 12+ | 10+ (prefix) |
+| `radial-gradient()` | 26+ | 16+ | 6.1+ | 12+ | 10+ (prefix) |
+| `conic-gradient()` | 69+ | 83+ | 12.1+ | 79+ | None |
+| `repeating-*-gradient()` | 26+ | 16+ | 6.1+ | 12+ | 10+ (prefix) |
 
 **IE 11 Prefix:**
 ```css
@@ -643,7 +643,7 @@ background-image: -ms-linear-gradient(to right, red, blue);
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use for Performance (Not Images)**
    ```css
@@ -665,7 +665,7 @@ background-image: -ms-linear-gradient(to right, red, blue);
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Too Many Colors (Visual Noise)**
    ```css
@@ -704,7 +704,7 @@ background-image: -ms-linear-gradient(to right, red, blue);
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Gradient Card Collection
+### Challenge: Build a Gradient Card Collection
 
 **Requirements:**
 - [ ] Linear gradient background
@@ -737,7 +737,7 @@ background-image: -ms-linear-gradient(to right, red, blue);
 **Previous:** [← Attribute Selectors](../08-selectors-advanced/attribute-selectors.md)
 **Next:** [Shadows →](shadows.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

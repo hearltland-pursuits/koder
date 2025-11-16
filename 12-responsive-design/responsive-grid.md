@@ -299,9 +299,9 @@ Mobile (375px):
 ```
 
 **Benefits:**
-- ✅ Simpler code (add complexity incrementally)
-- ✅ Better mobile performance (less CSS to parse)
-- ✅ Easier to maintain
+- Simpler code (add complexity incrementally)
+- Better mobile performance (less CSS to parse)
+- Easier to maintain
 
 ---
 
@@ -444,7 +444,7 @@ Mobile (375px):
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use auto-fit for flexible grids**
    ```css
@@ -480,7 +480,7 @@ Mobile (375px):
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use too many columns on mobile**
    ```css
@@ -540,7 +540,7 @@ Create a responsive card grid:
 **Previous:** [← Viewport](viewport.md)
 **Next:** [Media Queries →](media-queries.md)
 **Up:** [↑ Back to Responsive Design](../README.md#1️⃣2️⃣-responsive-design-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

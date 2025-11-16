@@ -326,7 +326,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always provide fallback src**
    ```html
@@ -356,7 +356,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
    <img src="photo.jpg" alt="Sunset over mountains">
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't load full-size images for thumbnails**
    ```html
@@ -412,7 +412,7 @@ Create a responsive product image with:
 **Previous:** [← Masking](masking.md)
 **Next:** [Components →](../11-components/tables.md)
 **Up:** [↑ Back to Images & Media](../README.md#1️⃣0️⃣-images--media-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

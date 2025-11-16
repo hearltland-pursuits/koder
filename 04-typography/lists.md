@@ -179,7 +179,7 @@ ul li {
 li::marker {
   color: #007bff;
   font-size: 1.5rem;
-  content: "✓ ";
+  content: "";
 }
 ```
 
@@ -249,7 +249,7 @@ ol li::before {
 }
 
 .checklist li::before {
-  content: "☐";
+  content: "";
   position: absolute;
   left: 10px;
   font-size: 1.5rem;
@@ -257,7 +257,7 @@ ol li::before {
 }
 
 .checklist li.checked::before {
-  content: "✓";
+  content: "";
   color: #28a745;
 }
 ```
@@ -356,16 +356,16 @@ ul li::before {
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `list-style-type` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `list-style-position` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `list-style-image` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `::marker` | ✅ 86+ | ✅ 68+ | ✅ 11.1+ | ✅ 86+ | ❌ None |
+| `list-style-type` | All | All | All | All | Full |
+| `list-style-position` | All | All | All | All | Full |
+| `list-style-image` | All | All | All | All | Full |
+| `::marker` | 86+ | 68+ | 11.1+ | 86+ | None |
 
 ---
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Remove bullets for navigation**
    ```css
@@ -383,7 +383,7 @@ ul li::before {
    li::before { content: counter(item) ". "; }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Forgetting to reset padding when removing bullets**
    ```css
@@ -411,7 +411,7 @@ ul li::before {
 **Previous:** [← Links](links.md)
 **Next:** [Z-Index →](../05-layout-basics/z-index.md)
 **Up:** [↑ Back to Typography](../README.md#4️⃣-typography-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

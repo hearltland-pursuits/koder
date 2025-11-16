@@ -521,7 +521,7 @@ CSS syntax rules are universal across all browsers.
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always Include Semicolons**
    ```css
@@ -578,7 +578,7 @@ CSS syntax rules are universal across all browsers.
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Omit Semicolons**
    ```css
@@ -655,7 +655,7 @@ CSS syntax rules are universal across all browsers.
 
 ## Practice Exercise
 
-### 🎯 Challenge: Fix Syntax Errors
+### Challenge: Fix Syntax Errors
 
 **Objective:** Identify and fix all syntax errors in the code below.
 
@@ -718,20 +718,20 @@ h1 {
 ```
 
 **Errors Fixed:**
-1. ✅ Closed comment (`/* Header Styles */`)
-2. ✅ Added opening brace after `h1`
-3. ✅ Changed `Color` to lowercase `color`
-4. ✅ Added semicolon after `blue`
-5. ✅ Added colon after `margin-bottom`
-6. ✅ Added semicolon after `18px`
-7. ✅ Changed `colour` to `color` (American spelling)
-8. ✅ Added opening brace after `#main-content`
-9. ✅ Changed `backgroundColor` to `background-color` (kebab-case)
-10. ✅ Added semicolon after `20px`
-11. ✅ Closed comment (`/* Button styles */`)
-12. ✅ Added colon after `background-color`
-13. ✅ Added semicolon after `20px`
-14. ✅ Changed `borderRadius` to `border-radius`
+1. Closed comment (`/* Header Styles */`)
+2. Added opening brace after `h1`
+3. Changed `Color` to lowercase `color`
+4. Added semicolon after `blue`
+5. Added colon after `margin-bottom`
+6. Added semicolon after `18px`
+7. Changed `colour` to `color` (American spelling)
+8. Added opening brace after `#main-content`
+9. Changed `backgroundColor` to `background-color` (kebab-case)
+10. Added semicolon after `20px`
+11. Closed comment (`/* Button styles */`)
+12. Added colon after `background-color`
+13. Added semicolon after `20px`
+14. Changed `borderRadius` to `border-radius`
 
 </details>
 

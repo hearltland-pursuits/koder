@@ -161,7 +161,7 @@ Universal support across all browsers.
 
 ## Best Practices
 
-✅ **Use semantic HTML first**
+**Use semantic HTML first**
 ```html
 <!-- Already block by default -->
 <div>, <section>, <header>
@@ -170,14 +170,14 @@ Universal support across all browsers.
 <a>, <span>, <strong>
 ```
 
-✅ **Use flex/grid for layouts**
+**Use flex/grid for layouts**
 ```css
 .container {
   display: grid; /* Modern layout */
 }
 ```
 
-❌ **Don't overuse `display: none`**
+**Don't overuse `display: none`**
 ```css
 /* Bad for accessibility */
 .element { display: none; }

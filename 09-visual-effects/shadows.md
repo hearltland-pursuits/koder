@@ -408,8 +408,8 @@ button:focus {
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `box-shadow` | ✅ 10+ | ✅ 4+ | ✅ 5.1+ | ✅ 12+ | ✅ 9+ |
-| `text-shadow` | ✅ 4+ | ✅ 3.5+ | ✅ 4+ | ✅ 12+ | ✅ 10+ |
+| `box-shadow` | 10+ | 4+ | 5.1+ | 12+ | 9+ |
+| `text-shadow` | 4+ | 3.5+ | 4+ | 12+ | 10+ |
 
 **Can I Use:** [https://caniuse.com/css-boxshadow](https://caniuse.com/css-boxshadow)
 
@@ -417,7 +417,7 @@ button:focus {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use Multiple Shadows for Realism**
    ```css
@@ -438,7 +438,7 @@ button:focus {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Heavy Shadows Everywhere**
    ```css
@@ -477,7 +477,7 @@ button:focus {
 
 ## Practice Exercise
 
-### 🎯 Challenge: Create a Material Design Card with Interactive Shadows
+### Challenge: Create a Material Design Card with Interactive Shadows
 
 **Requirements:**
 - [ ] Default state: Subtle shadow
@@ -510,7 +510,7 @@ button:focus {
 **Previous:** [← Gradients](gradients.md)
 **Next:** [2D Transforms →](transforms-2d.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

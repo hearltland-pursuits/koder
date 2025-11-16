@@ -87,10 +87,10 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 **Rule:** Always expand to 6 digits if shorthand isn't possible
 
 ```css
-/* ❌ Can't shorten - digits differ */
+/* Can't shorten - digits differ */
 #FF5733  /* Must use 6 digits */
 
-/* ✅ Can shorten */
+/* Can shorten */
 #FFAA00  →  #FA0
 ```
 
@@ -335,7 +335,7 @@ rgb(52, 152, 219) = #3498DB
 |---------|--------|---------|--------|------|-----|
 | 6-digit HEX (`#RRGGBB`) | 1+ | 1+ | 1+ | 12+ | 3+ |
 | 3-digit HEX (`#RGB`) | 1+ | 1+ | 1+ | 12+ | 3+ |
-| 8-digit HEX (`#RRGGBBAA`) | 52+ | 49+ | 9.1+ | 79+ | ❌ |
+| 8-digit HEX (`#RRGGBBAA`) | 52+ | 49+ | 9.1+ | 79+ | |
 
 **Note:** Alpha channel support limited in older browsers.
 
@@ -343,11 +343,11 @@ rgb(52, 152, 219) = #3498DB
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use lowercase for consistency**
 ```css
-/* ✅ Recommended */
+/* Recommended */
 .box { color: #3498db; }
 
 /* Also works but inconsistent */
@@ -356,7 +356,7 @@ rgb(52, 152, 219) = #3498DB
 
 **2. Use shorthand when possible**
 ```css
-/* ✅ Good - compact */
+/* Good - compact */
 .white { color: #FFF; }
 .black { color: #000; }
 
@@ -384,32 +384,32 @@ rgb(52, 152, 219) = #3498DB
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't use HEX for transparency**
 ```css
-/* ❌ Limited browser support */
+/* Limited browser support */
 .overlay { background: #00000080; }
 
-/* ✅ Better - universal support */
+/* Better - universal support */
 .overlay { background: rgba(0, 0, 0, 0.5); }
 ```
 
 **2. Don't forget the #**
 ```css
-/* ❌ Invalid - won't work */
+/* Invalid - won't work */
 .box { color: FF0000; }
 
-/* ✅ Must include # */
+/* Must include # */
 .box { color: #FF0000; }
 ```
 
 **3. Don't use invalid characters**
 ```css
-/* ❌ Only 0-9, A-F allowed */
+/* Only 0-9, A-F allowed */
 .box { color: #GGHHII; }
 
-/* ✅ Valid hex digits */
+/* Valid hex digits */
 .box { color: #AABBCC; }
 ```
 

@@ -29,11 +29,11 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 **CSS custom properties** (also called CSS variables) allow you to define reusable values that can be referenced throughout your stylesheet.
 
 **Benefits:**
-- ✅ **DRY principle:** Define once, use everywhere
-- ✅ **Easy maintenance:** Change one value, updates everywhere
-- ✅ **Dynamic:** Can be changed via JavaScript
-- ✅ **Scoped:** Can have different values in different contexts
-- ✅ **Inheritance:** Child elements inherit parent variables
+- **DRY principle:** Define once, use everywhere
+- **Easy maintenance:** Change one value, updates everywhere
+- **Dynamic:** Can be changed via JavaScript
+- **Scoped:** Can have different values in different contexts
+- **Inheritance:** Child elements inherit parent variables
 
 **Syntax:**
 ```css
@@ -646,7 +646,7 @@ body {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use :root for global variables**
    ```css
@@ -694,7 +694,7 @@ body {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use variables for everything**
    ```css
@@ -762,7 +762,7 @@ Create a theme switcher with variables:
 **Previous:** [← CSS Functions](css-functions.md)
 **Next:** [At-Rules →](at-rules.md)
 **Up:** [↑ Back to Modern CSS](../README.md#1️⃣3️⃣-modern-css-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

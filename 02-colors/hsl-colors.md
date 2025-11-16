@@ -344,7 +344,7 @@ element.style.backgroundColor = `hsl(${hue}, 70%, 50%)`;
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use HSL for color systems**
 ```css
@@ -359,7 +359,7 @@ element.style.backgroundColor = `hsl(${hue}, 70%, 50%)`;
 
 **2. Create shades by changing lightness**
 ```css
-/* ✅ Intuitive */
+/* Intuitive */
 .light { color: hsl(220, 70%, 70%); }
 .base { color: hsl(220, 70%, 50%); }
 .dark { color: hsl(220, 70%, 30%); }
@@ -380,25 +380,25 @@ element.style.backgroundColor = `hsl(${hue}, 70%, 50%)`;
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't use extreme saturation for text**
 ```css
-/* ❌ Bad - too vibrant, hard to read */
+/* Bad - too vibrant, hard to read */
 .text { color: hsl(240, 100%, 50%); }
 
-/* ✅ Good - muted */
+/* Good - muted */
 .text { color: hsl(240, 30%, 30%); }
 ```
 
 **2. Don't forget lightness affects all hues**
 ```css
-/* ❌ These are all white (100% lightness) */
+/* These are all white (100% lightness) */
 hsl(0, 100%, 100%)
 hsl(120, 100%, 100%)
 hsl(240, 100%, 100%)
 
-/* ✅ Use 50% for true colors */
+/* Use 50% for true colors */
 hsl(0, 100%, 50%)   /* Red */
 hsl(120, 100%, 50%) /* Green */
 hsl(240, 100%, 50%) /* Blue */

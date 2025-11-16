@@ -84,7 +84,7 @@ p {
 
 ## When to Use !important
 
-### ✅ Legitimate Use Cases
+### Legitimate Use Cases
 
 #### 1. Utility Classes
 
@@ -148,7 +148,7 @@ p {
 
 ## When NOT to Use !important
 
-### ❌ Avoid in These Cases
+### Avoid in These Cases
 
 #### 1. Normal Styling
 
@@ -302,13 +302,13 @@ p {
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `!important` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
+| `!important` | All | All | All | All | Full |
 
 ---
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use for utility classes only**
    ```css
@@ -327,7 +327,7 @@ p {
    .temp { color: red !important; }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Using as a crutch**
 2. **Overusing in normal styles**
@@ -351,7 +351,7 @@ p {
 **Previous:** [← Specificity](specificity.md)
 **Next:** [Tables →](../11-components/tables.md)
 **Up:** [↑ Back to Selectors Advanced](../README.md#8️⃣-selectors-advanced-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

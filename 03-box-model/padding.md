@@ -106,21 +106,21 @@ Universal support across all browsers.
 
 ## Best Practices
 
-✅ **Use padding for internal spacing**
+**Use padding for internal spacing**
 ```css
 .box {
   padding: 20px; /* Space inside element */
 }
 ```
 
-✅ **Use padding to increase click area**
+**Use padding to increase click area**
 ```css
 .button {
   padding: 15px 30px; /* Larger, easier to click */
 }
 ```
 
-❌ **Don't forget `box-sizing: border-box`**
+**Don't forget `box-sizing: border-box`**
 ```css
 * {
   box-sizing: border-box; /* Includes padding in width */

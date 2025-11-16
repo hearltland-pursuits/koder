@@ -281,7 +281,7 @@ header {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use flex-wrap for automatic responsiveness**
    ```css
@@ -313,7 +313,7 @@ header {
    }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Fixed widths without flex-wrap**
 2. **Too many breakpoints**
@@ -338,7 +338,7 @@ header {
 **Previous:** [← Flex Items](flex-items.md)
 **Next:** [Grid Introduction →](../07-grid/grid-intro.md)
 **Up:** [↑ Back to Flexbox](../README.md#6️⃣-flexbox-4-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

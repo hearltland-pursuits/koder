@@ -119,9 +119,9 @@ Space INSIDE the element, between content and border.
 ```
 
 **Characteristics:**
-- ✅ Background colors extend through padding
-- ✅ Creates "breathing room" inside elements
-- ✅ Never collapses (always adds to size)
+- Background colors extend through padding
+- Creates "breathing room" inside elements
+- Never collapses (always adds to size)
 
 ---
 
@@ -145,9 +145,9 @@ The element's outline/boundary.
 ```
 
 **Characteristics:**
-- ✅ Can have different widths, styles, colors per side
-- ✅ Adds to element's total size (in default `content-box`)
-- ✅ Can be rounded with `border-radius`
+- Can have different widths, styles, colors per side
+- Adds to element's total size (in default `content-box`)
+- Can be rounded with `border-radius`
 
 ---
 
@@ -169,9 +169,9 @@ Space OUTSIDE the element, between it and other elements.
 ```
 
 **Characteristics:**
-- ❌ Background colors do NOT extend through margin
-- ✅ Can be negative (overlapping elements)
-- ⚠️ Can collapse (vertical margins between elements combine)
+- Background colors do NOT extend through margin
+- Can be negative (overlapping elements)
+- Can collapse (vertical margins between elements combine)
 
 ---
 
@@ -576,7 +576,7 @@ The box model is a foundational CSS feature with universal support.
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `border-box` Globally**
    ```css
@@ -617,7 +617,7 @@ The box model is a foundational CSS feature with universal support.
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Forget `box-sizing` When Setting Width**
    ```css
@@ -666,7 +666,7 @@ The box model is a foundational CSS feature with universal support.
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Box Model Section:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=3600s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=3600s)
 
@@ -706,7 +706,7 @@ The box model is a foundational CSS feature with universal support.
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Product Card with Proper Box Model
+### Challenge: Build a Product Card with Proper Box Model
 
 **Objective:** Create a product card demonstrating all four box model layers.
 

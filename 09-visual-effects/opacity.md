@@ -216,13 +216,13 @@ button:disabled {
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `opacity` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
+| `opacity` | All | All | All | All | Full |
 
 ---
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Combine with transitions**
    ```css
@@ -244,7 +244,7 @@ button:disabled {
    }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Using opacity when rgba() would work better**
    ```css
@@ -290,7 +290,7 @@ button:disabled {
 **Previous:** [← Filters](filters.md)
 **Next:** [Tables →](../11-components/tables.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

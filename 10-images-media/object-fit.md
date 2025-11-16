@@ -461,7 +461,7 @@ img {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `cover` for cards and thumbnails**
    ```css
@@ -487,7 +487,7 @@ img {
    img { width: 300px; height: 300px; object-fit: cover; }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use object-fit without explicit dimensions**
    ```css
@@ -544,7 +544,7 @@ Create a responsive image grid where:
 **Previous:** [← Image Sprites](image-sprites.md)
 **Next:** [Masking →](masking.md)
 **Up:** [↑ Back to Images & Media](../README.md#1️⃣0️⃣-images--media-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

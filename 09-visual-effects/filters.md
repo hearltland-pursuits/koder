@@ -292,8 +292,8 @@ img:hover {
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `filter` | ✅ 53+ | ✅ 35+ | ✅ 9.1+ | ✅ 79+ | ❌ None |
-| `backdrop-filter` | ✅ 76+ | ✅ 103+ | ✅ 9+ | ✅ 79+ | ❌ None |
+| `filter` | 53+ | 35+ | 9.1+ | 79+ | None |
+| `backdrop-filter` | 76+ | 103+ | 9+ | 79+ | None |
 
 **Fallback:**
 ```css
@@ -307,7 +307,7 @@ img:hover {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Combine with transitions**
    ```css
@@ -335,7 +335,7 @@ img:hover {
    filter: brightness(2) saturate(5);
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Too many filters (performance)**
 2. **Extreme values (unreadable)**
@@ -358,7 +358,7 @@ img:hover {
 **Previous:** [← Animations](animations.md)
 **Next:** [Opacity →](opacity.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

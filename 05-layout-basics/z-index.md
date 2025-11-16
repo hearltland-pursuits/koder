@@ -222,13 +222,13 @@ z-index: auto;
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `z-index` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
+| `z-index` | All | All | All | All | Full |
 
 ---
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use position property with z-index**
    ```css
@@ -258,7 +258,7 @@ z-index: auto;
    .modal { z-index: 1000; }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Forgetting position property**
    ```css
@@ -291,7 +291,7 @@ z-index: auto;
 **Previous:** [← Alignment](alignment.md)
 **Next:** [Filters →](../09-visual-effects/filters.md)
 **Up:** [↑ Back to Layout Basics](../README.md#5️⃣-layout-basics-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

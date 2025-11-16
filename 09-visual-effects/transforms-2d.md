@@ -481,8 +481,8 @@ button:hover {
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `transform` (2D) | ✅ 36+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ (prefix) |
-| `transform-origin` | ✅ 36+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ |
+| `transform` (2D) | 36+ | 16+ | 9+ | 12+ | 10+ (prefix) |
+| `transform-origin` | 36+ | 16+ | 9+ | 12+ | 10+ |
 
 **IE 9-10 Prefix:**
 ```css
@@ -495,7 +495,7 @@ button:hover {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use for Animations (Performance)**
    ```css
@@ -514,7 +514,7 @@ button:hover {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Animating `position` Properties**
    ```css
@@ -552,7 +552,7 @@ button:hover {
 
 ## Practice Exercise
 
-### 🎯 Challenge: Create an Interactive Photo Gallery
+### Challenge: Create an Interactive Photo Gallery
 
 **Requirements:**
 - [ ] Images scale up on hover
@@ -576,7 +576,7 @@ button:hover {
 **Previous:** [← Shadows](shadows.md)
 **Next:** [3D Transforms →](transforms-3d.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

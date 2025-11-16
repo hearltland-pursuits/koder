@@ -268,13 +268,13 @@ body div.container ul li a.link {
 
 | Concept | Chrome | Firefox | Safari | Edge | IE 11 |
 |---------|--------|---------|--------|------|-------|
-| Specificity Rules | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
+| Specificity Rules | All | All | All | All | Full |
 
 ---
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use classes primarily**
    ```css
@@ -295,7 +295,7 @@ body div.container ul li a.link {
    .block__element--modifier { }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Overusing IDs**
 2. **Deep nesting**
@@ -319,7 +319,7 @@ body div.container ul li a.link {
 **Previous:** [← Attribute Selectors](attribute-selectors.md)
 **Next:** [!important Rule →](important-rule.md)
 **Up:** [↑ Back to Selectors Advanced](../README.md#8️⃣-selectors-advanced-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

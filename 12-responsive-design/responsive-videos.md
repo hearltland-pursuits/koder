@@ -485,7 +485,7 @@ video {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use aspect-ratio for modern browsers**
    ```css
@@ -524,7 +524,7 @@ video {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use fixed dimensions**
    ```html
@@ -585,7 +585,7 @@ Create a responsive video page with:
 **Previous:** [← Responsive Grid](responsive-grid.md)
 **Next:** [Mobile-First Design →](mobile-first.md)
 **Up:** [↑ Back to Responsive Design](../README.md#1️⃣2️⃣-responsive-design-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

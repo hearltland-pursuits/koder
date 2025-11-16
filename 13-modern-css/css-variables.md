@@ -50,7 +50,7 @@ CSS Variables enable powerful patterns: **theming** (light/dark modes with one t
 .card-border { border-color: #3498db; }
 /* ...200 more instances */
 
-/* Change brand color? Edit 200+ places 😱 */
+/* Change brand color? Edit 200+ places  */
 ```
 
 **With variables:**
@@ -65,7 +65,7 @@ CSS Variables enable powerful patterns: **theming** (light/dark modes with one t
 .card-border { border-color: var(--brand-primary); }
 /* ...200 more instances */
 
-/* Change brand color? Edit 1 place ✅ */
+/* Change brand color? Edit 1 place */
 :root {
   --brand-primary: #2ecc71; /* Everything updates */
 }
@@ -263,15 +263,15 @@ Variables defined on a selector are available only to that selector and its chil
 }
 
 .card {
-  background-color: var(--card-bg); /* ✅ Works */
+  background-color: var(--card-bg); /* Works */
 }
 
 .card-header {
-  background-color: var(--card-bg); /* ✅ Works (inherited from parent) */
+  background-color: var(--card-bg); /* Works (inherited from parent) */
 }
 
 .footer {
-  background-color: var(--card-bg); /* ❌ Doesn't work (not a child of .card) */
+  background-color: var(--card-bg); /* Doesn't work (not a child of .card) */
 }
 ```
 
@@ -676,9 +676,9 @@ body {
 
 | Feature | Chrome | Firefox | Safari | Edge | IE |
 |---------|--------|---------|--------|------|----|
-| CSS Variables | 49+ | 31+ | 9.1+ | 15+ | ❌ |
-| `var()` | 49+ | 31+ | 9.1+ | 15+ | ❌ |
-| JavaScript access | 49+ | 31+ | 9.1+ | 15+ | ❌ |
+| CSS Variables | 49+ | 31+ | 9.1+ | 15+ | |
+| `var()` | 49+ | 31+ | 9.1+ | 15+ | |
+| JavaScript access | 49+ | 31+ | 9.1+ | 15+ | |
 
 **Key Takeaway:** CSS Variables work in all modern browsers. IE11 doesn't support them (use fallbacks or Sass variables for legacy support).
 
@@ -686,7 +686,7 @@ body {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Define Variables Globally in `:root`**
    ```css
@@ -743,7 +743,7 @@ body {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Hardcode Values That Could Be Variables**
    ```css
@@ -810,7 +810,7 @@ body {
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Theme Switcher
+### Challenge: Build a Theme Switcher
 
 **Objective:** Create a website with light/dark mode toggle using CSS Variables.
 

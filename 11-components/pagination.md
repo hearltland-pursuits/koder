@@ -424,7 +424,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use semantic HTML (nav and ul)**
    ```html
@@ -452,7 +452,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
    <li class="page-ellipsis">...</li>
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't make page numbers too small**
    ```css
@@ -503,7 +503,7 @@ Create a pagination component with:
 **Previous:** [← Tooltips](tooltips.md)
 **Next:** [Responsive Design →](../12-responsive-design/rwd-intro.md)
 **Up:** [↑ Back to Components](../README.md#1️⃣1️⃣-components-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

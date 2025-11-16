@@ -367,10 +367,10 @@ Each column is `1fr` (equal width).
 ```
 
 **Advantages:**
-- ✅ No `.row` wrappers needed
-- ✅ Less markup
-- ✅ Automatic wrapping
-- ✅ Easier to maintain
+- No `.row` wrappers needed
+- Less markup
+- Automatic wrapping
+- Easier to maintain
 
 ---
 
@@ -504,7 +504,7 @@ Each column is `1fr` (equal width).
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use semantic HTML**
    ```html
@@ -531,7 +531,7 @@ Each column is `1fr` (equal width).
    .container { max-width: 1200px; }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't exceed 12 columns**
    ```html
@@ -593,7 +593,7 @@ Use the 12-column grid system with responsive classes.
 **Previous:** [← Grid Named Areas](grid-named-areas.md)
 **Next:** [Components →](../11-components/tables.md)
 **Up:** [↑ Back to Grid](../README.md#7️⃣-grid-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

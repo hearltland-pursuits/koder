@@ -26,10 +26,10 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 **Inline-block:** The hybrid display value that gets the best of both inline and block.
 
 **Characteristics:**
-- ✅ Flows horizontally (like inline)
-- ✅ Accepts width/height (like block)
-- ✅ Respects all margins/padding (like block)
-- ❌ Creates whitespace gaps (annoying quirk)
+- Flows horizontally (like inline)
+- Accepts width/height (like block)
+- Respects all margins/padding (like block)
+- Creates whitespace gaps (annoying quirk)
 
 **Common uses:**
 - Navigation menus
@@ -46,11 +46,11 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 | Feature | Inline | Inline-Block | Block |
 |---------|--------|--------------|-------|
-| **Flows horizontally** | ✅ Yes | ✅ Yes | ❌ No (stacks vertically) |
-| **Can set width/height** | ❌ No | ✅ Yes | ✅ Yes |
-| **Respects vertical margins** | ❌ No | ✅ Yes | ✅ Yes |
-| **Respects padding (all sides)** | ⚠️ Partially | ✅ Yes | ✅ Yes |
-| **Takes full width** | ❌ No | ❌ No | ✅ Yes (default) |
+| **Flows horizontally** | Yes | Yes | No (stacks vertically) |
+| **Can set width/height** | No | Yes | Yes |
+| **Respects vertical margins** | No | Yes | Yes |
+| **Respects padding (all sides)** | Partially | Yes | Yes |
+| **Takes full width** | No | No | Yes (default) |
 | **Default for** | `<span>`, `<a>` | None | `<div>`, `<p>` |
 
 ### Visual Comparison
@@ -225,7 +225,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 ### Solution 4: Use Flexbox Instead (Modern)
 
 ```css
-/* ✅ Best solution - no whitespace issues */
+/* Best solution - no whitespace issues */
 .container {
   display: flex;
   gap: 10px;
@@ -415,7 +415,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use font-size: 0 to remove whitespace**
 ```css
@@ -447,7 +447,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 **4. Consider Flexbox for modern projects**
 ```css
-/* ✅ Better than inline-block for grids */
+/* Better than inline-block for grids */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -455,29 +455,29 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't forget about whitespace gaps**
 ```css
-/* ❌ Will have gaps */
+/* Will have gaps */
 .box {
   display: inline-block;
 }
 
-/* ✅ Remove gaps */
+/* Remove gaps */
 .container { font-size: 0; }
 .box { font-size: 16px; }
 ```
 
 **2. Don't use for complex layouts**
 ```css
-/* ❌ Bad - use Grid instead */
+/* Bad - use Grid instead */
 .complex-layout .col {
   display: inline-block;
   width: 25%;
 }
 
-/* ✅ Good - use Grid */
+/* Good - use Grid */
 .complex-layout {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -486,12 +486,12 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 **3. Don't forget vertical-align**
 ```css
-/* ❌ Elements may not align as expected */
+/* Elements may not align as expected */
 .item {
   display: inline-block;
 }
 
-/* ✅ Explicitly set alignment */
+/* Explicitly set alignment */
 .item {
   display: inline-block;
   vertical-align: top;

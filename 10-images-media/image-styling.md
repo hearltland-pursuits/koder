@@ -591,7 +591,7 @@ img:hover {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always set height: auto for responsive images**
    ```css
@@ -618,7 +618,7 @@ img:hover {
    - Compress images (aim for <200KB for web)
    - Use appropriate dimensions (don't upload 4K for a 400px display)
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't set both width and height without object-fit**
    ```css
@@ -676,7 +676,7 @@ Create a photo card component with:
 **Previous:** [← Visual Effects](../09-visual-effects/opacity.md)
 **Next:** [Image Gallery →](image-gallery.md)
 **Up:** [↑ Back to Images & Media](../README.md#1️⃣0️⃣-images--media-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

@@ -185,12 +185,12 @@ body {
 ### Performance Warning
 
 ```css
-/* ⚠️ SLOW: Each @import is a separate HTTP request */
+/* SLOW: Each @import is a separate HTTP request */
 @import url('style1.css');
 @import url('style2.css');
 @import url('style3.css');
 
-/* ✅ BETTER: Use <link> in HTML */
+/* BETTER: Use <link> in HTML */
 ```
 
 **HTML:**
@@ -578,7 +578,7 @@ svg|a {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use @media for responsive design**
    ```css
@@ -621,7 +621,7 @@ svg|a {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't use @import in production**
    ```css
@@ -702,7 +702,7 @@ Create a responsive layout using at-rules:
 **Previous:** [← Custom Properties](custom-properties.md)
 **Next:** [Optimization →](optimization.md)
 **Up:** [↑ Back to Modern CSS](../README.md#1️⃣3️⃣-modern-css-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

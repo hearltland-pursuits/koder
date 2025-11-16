@@ -32,16 +32,16 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 - Ionicons
 
 **Benefits:**
-- ✅ Scalable (vector-based)
-- ✅ Style with CSS (color, size, shadow)
-- ✅ One HTTP request (all icons in font file)
-- ✅ Easy to implement
+- Scalable (vector-based)
+- Style with CSS (color, size, shadow)
+- One HTTP request (all icons in font file)
+- Easy to implement
 
 **Drawbacks:**
-- ❌ Accessibility challenges
-- ❌ Limited multi-color support
-- ❌ Can't animate individual parts
-- ❌ May fail if custom fonts blocked
+- Accessibility challenges
+- Limited multi-color support
+- Can't animate individual parts
+- May fail if custom fonts blocked
 
 ---
 
@@ -233,14 +233,14 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 ## Accessibility
 
-### ❌ Bad: No Accessibility
+### Bad: No Accessibility
 
 ```html
 <!-- Screen readers don't understand this -->
 <i class="fa-solid fa-heart"></i>
 ```
 
-### ✅ Good: With aria-label
+### Good: With aria-label
 
 ```html
 <!-- Decorative icon (purely visual) -->
@@ -414,7 +414,7 @@ nav i {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use aria-hidden for decorative icons**
 ```html
@@ -453,7 +453,7 @@ nav i {
 </a>
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't use icons without context**
 ```html

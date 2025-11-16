@@ -584,7 +584,7 @@ input[type="radio"]:checked + label {
 | Firefox | All        | All       | All          | All         |
 | Safari  | All        | All       | All          | All         |
 | Edge    | All        | All       | All          | All         |
-| IE 11   | ✅ Full    | ✅ Full   | ✅ Full      | ✅ Full     |
+| IE 11   | Full    | Full   | Full      | Full     |
 
 **Verdict:** All combinators have **100% browser support**. No fallbacks needed.
 
@@ -594,7 +594,7 @@ input[type="radio"]:checked + label {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use Child Combinator (>) for Component Boundaries**
    ```css
@@ -636,7 +636,7 @@ input[type="radio"]:checked + label {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Over-Nesting with Descendant Combinator**
    ```css
@@ -686,7 +686,7 @@ input[type="radio"]:checked + label {
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Section:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1520s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1520s)
 
@@ -726,7 +726,7 @@ Visual demonstrations of how combinators traverse the DOM tree, with live coding
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Styled FAQ Section (No Extra Classes)
+### Challenge: Build a Styled FAQ Section (No Extra Classes)
 
 **Objective:** Create a FAQ accordion using only combinators and pseudo-classes (no JavaScript, minimal classes).
 
@@ -888,7 +888,7 @@ Visual demonstrations of how combinators traverse the DOM tree, with live coding
 **Previous:** [← Grid Introduction](../07-grid/grid-intro.md)
 **Next:** [Pseudo-Classes →](pseudo-classes.md)
 **Up:** [↑ Back to Selectors Advanced](../README.md#8️⃣-selectors-advanced-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

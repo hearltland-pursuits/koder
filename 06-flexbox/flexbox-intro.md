@@ -570,7 +570,7 @@ footer {
 | Feature | Chrome | Firefox | Safari | Edge | IE |
 |---------|--------|---------|--------|------|----|
 | Basic Flexbox | 29+ | 28+ | 9+ | 12+ | 11 |
-| `gap` | 84+ | 63+ | 14.1+ | 84+ | ❌ |
+| `gap` | 84+ | 63+ | 14.1+ | 84+ | |
 
 **Note:** Flexbox is safe to use. `gap` is modern but has fallbacks (use margins).
 
@@ -578,7 +578,7 @@ footer {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use Flexbox for One-Dimensional Layouts**
    ```css
@@ -619,7 +619,7 @@ footer {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Use Flexbox for Two-Dimensional Layouts**
    ```css
@@ -674,7 +674,7 @@ footer {
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Responsive Card Layout
+### Challenge: Build a Responsive Card Layout
 
 **Requirements:**
 - [ ] 3 equal-width cards in a row

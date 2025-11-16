@@ -130,13 +130,13 @@ Text properties affect users with disabilities:
 
 **Good combinations:**
 ```css
-/* ✅ Passes WCAG AA (7.0:1 ratio) */
+/* Passes WCAG AA (7.0:1 ratio) */
 .readable {
   color: #333333; /* Dark gray */
   background-color: #ffffff; /* White */
 }
 
-/* ❌ Fails WCAG (2.1:1 ratio) */
+/* Fails WCAG (2.1:1 ratio) */
 .unreadable {
   color: #aaaaaa; /* Light gray */
   background-color: #ffffff; /* White */
@@ -454,13 +454,13 @@ a {
 
 ### When to Use
 
-✅ **Good for:**
+**Good for:**
 - Creating depth on headings
 - Improving legibility over images
 - Glow effects for emphasis
 - 3D text effects
 
-❌ **Avoid for:**
+**Avoid for:**
 - Body text (reduces readability)
 - Overusing (looks dated)
 - Excessive blur (looks blurry, not shadowy)
@@ -638,7 +638,7 @@ All text styling properties have universal browser support.
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Set Base Typography on Body**
    ```css
@@ -677,7 +677,7 @@ All text styling properties have universal browser support.
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Use `justify` for Web Content**
    ```css
@@ -708,7 +708,7 @@ All text styling properties have universal browser support.
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Text Styling:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=4500s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=4500s)
 
@@ -744,7 +744,7 @@ All text styling properties have universal browser support.
 
 ## Practice Exercise
 
-### 🎯 Challenge: Style a Blog Post
+### Challenge: Style a Blog Post
 
 **Objective:** Apply text styling to create professional, readable blog content.
 

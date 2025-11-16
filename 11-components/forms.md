@@ -223,7 +223,7 @@ input[type="checkbox"]:checked {
 }
 
 input[type="checkbox"]:checked::before {
-  content: "✓";
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -347,7 +347,7 @@ input {
 
 /* Icon inside input */
 .form-group::after {
-  content: "👤";
+  content: "";
   position: absolute;
   right: 15px;
   top: 50%;
@@ -365,7 +365,7 @@ input {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Provide clear focus states**
    ```css
@@ -388,7 +388,7 @@ input {
    <input id="email" type="email">
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Missing labels**
 2. **No focus indicators**
@@ -411,7 +411,7 @@ input {
 **Previous:** [← Tables](tables.md)
 **Next:** [Buttons →](buttons.md)
 **Up:** [↑ Back to Components](../README.md#1️⃣1️⃣-components-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

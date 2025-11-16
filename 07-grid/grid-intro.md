@@ -553,9 +553,9 @@ Item C: grid-column: 1 / 2, grid-row: 2 / 3
 
 | Feature | Chrome | Firefox | Safari | Edge | IE |
 |---------|--------|---------|--------|------|----|
-| Basic Grid | 57+ | 52+ | 10.1+ | 16+ | ❌ |
-| `gap` | 66+ | 61+ | 12+ | 16+ | ❌ |
-| `grid-template-areas` | 57+ | 52+ | 10.1+ | 16+ | ❌ |
+| Basic Grid | 57+ | 52+ | 10.1+ | 16+ | |
+| `gap` | 66+ | 61+ | 12+ | 16+ | |
+| `grid-template-areas` | 57+ | 52+ | 10.1+ | 16+ | |
 
 **Note:** Grid is modern (2017+). IE11 has partial support with `-ms-` prefix (not recommended).
 
@@ -563,7 +563,7 @@ Item C: grid-column: 1 / 2, grid-row: 2 / 3
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use Grid for Page Layouts**
    ```css
@@ -595,7 +595,7 @@ Item C: grid-column: 1 / 2, grid-row: 2 / 3
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Use Grid for Simple One-Dimensional Layouts**
    ```css
@@ -653,7 +653,7 @@ Item C: grid-column: 1 / 2, grid-row: 2 / 3
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Responsive Dashboard
+### Challenge: Build a Responsive Dashboard
 
 **Requirements:**
 - [ ] Header spanning full width

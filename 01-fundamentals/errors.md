@@ -55,14 +55,14 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 1. Missing Semicolon
 
 ```css
-/* ❌ Error - missing semicolon */
+/* Error - missing semicolon */
 .box {
   color: blue
   padding: 20px;
 }
 /* Result: padding is ignored */
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   color: blue;
   padding: 20px;
@@ -72,7 +72,7 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 2. Missing Curly Braces
 
 ```css
-/* ❌ Error - missing closing brace */
+/* Error - missing closing brace */
 .box {
   color: blue;
   padding: 20px;
@@ -82,7 +82,7 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
   margin: 10px;
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   color: blue;
   padding: 20px;
@@ -96,13 +96,13 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 3. Wrong Comment Syntax
 
 ```css
-/* ❌ Error - HTML comments don't work in CSS */
+/* Error - HTML comments don't work in CSS */
 .box {
   color: blue; // This doesn't work
   padding: 20px; <!-- This breaks everything -->
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   color: blue; /* Use this syntax */
   padding: 20px;
@@ -112,13 +112,13 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 4. Quotes Mismatch
 
 ```css
-/* ❌ Error - mismatched quotes */
+/* Error - mismatched quotes */
 .box {
   font-family: "Arial;
   content: 'Hello";
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   font-family: "Arial";
   content: 'Hello';
@@ -128,13 +128,13 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 5. Missing Colon
 
 ```css
-/* ❌ Error - missing colon */
+/* Error - missing colon */
 .box {
   color blue;
   padding 20px;
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   color: blue;
   padding: 20px;
@@ -148,14 +148,14 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 1. Typos in Property Names
 
 ```css
-/* ❌ Common typos */
+/* Common typos */
 .box {
   colr: blue; /* Should be: color */
   padd: 20px; /* Should be: padding */
   bakground: red; /* Should be: background */
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   color: blue;
   padding: 20px;
@@ -166,14 +166,14 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 2. Invalid Property Values
 
 ```css
-/* ❌ Invalid values */
+/* Invalid values */
 .box {
   color: blu; /* Not a valid color name */
   padding: 20; /* Missing unit */
   display: boxes; /* Not a valid display value */
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   color: blue;
   padding: 20px;
@@ -184,14 +184,14 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 3. Units Missing
 
 ```css
-/* ❌ Missing units */
+/* Missing units */
 .box {
   width: 500; /* Ignored - no unit */
   margin: 10; /* Ignored - no unit */
   padding: 0; /* OK - zero doesn't need unit */
 }
 
-/* ✅ Fixed */
+/* Fixed */
 .box {
   width: 500px;
   margin: 10px;
@@ -202,12 +202,12 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 ### 4. Wrong Shorthand Order
 
 ```css
-/* ❌ Wrong order for border shorthand */
+/* Wrong order for border shorthand */
 .box {
   border: red 2px solid; /* Works but unconventional */
 }
 
-/* ✅ Correct order: width style color */
+/* Correct order: width style color */
 .box {
   border: 2px solid red;
 }
@@ -223,12 +223,12 @@ Result: Box has blue text and 20px padding. The `colr: red;` line is silently ig
 1. Right-click element → Inspect
 2. View **Computed** tab to see applied styles
 3. Check for ~~strikethrough~~ styles (overridden)
-4. Look for ⚠️ warning icons (invalid values)
+4. Look for warning icons (invalid values)
 
 **DevTools Tips:**
 ```
-✓ Green checkmark = Valid property
-⚠️ Yellow warning = Invalid value
+Green checkmark = Valid property
+Yellow warning = Invalid value
 ~~Strikethrough~~ = Overridden by more specific rule
 ```
 
@@ -322,12 +322,12 @@ Remove after debugging.
 ### Issue: Vendor Prefixes Needed
 
 ```css
-/* ❌ Might not work in older Safari */
+/* Might not work in older Safari */
 .box {
   user-select: none;
 }
 
-/* ✅ Add vendor prefixes */
+/* Add vendor prefixes */
 .box {
   -webkit-user-select: none; /* Safari/Chrome */
   -moz-user-select: none; /* Firefox */
@@ -340,7 +340,7 @@ Remove after debugging.
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use CSS Linters**
 ```bash
@@ -367,11 +367,11 @@ npm install stylelint stylelint-config-standard
 - Test changes live
 - Check cascade order
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't Ignore DevTools Warnings**
 ```css
-/* ⚠️ DevTools shows warning - fix it! */
+/* DevTools shows warning - fix it! */
 .box {
   colr: blue; /* Invalid property */
 }
@@ -379,13 +379,13 @@ npm install stylelint stylelint-config-standard
 
 **2. Don't Overuse !important**
 ```css
-/* ❌ Bad - makes debugging harder */
+/* Bad - makes debugging harder */
 .button {
   color: blue !important;
   padding: 10px !important;
 }
 
-/* ✅ Good - fix specificity instead */
+/* Good - fix specificity instead */
 #header .nav .button {
   color: blue;
 }
@@ -393,7 +393,7 @@ npm install stylelint stylelint-config-standard
 
 **3. Don't Leave Broken CSS**
 ```css
-/* ❌ Bad - breaks entire rule */
+/* Bad - breaks entire rule */
 .box {
   color blue /* Missing colon AND semicolon */
   padding: 20px;
@@ -423,9 +423,9 @@ When CSS isn't working, check:
 
 | Tool | Chrome | Firefox | Safari | Edge |
 |------|--------|---------|--------|------|
-| DevTools Inspector | ✅ | ✅ | ✅ | ✅ |
-| Console Warnings | ✅ | ✅ | ⚠️ Limited | ✅ |
-| Validation Tools | ✅ | ✅ | ✅ | ✅ |
+| DevTools Inspector | | | | |
+| Console Warnings | | | Limited | |
+| Validation Tools | | | | |
 
 ---
 

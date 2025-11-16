@@ -162,7 +162,7 @@ Comments are notes in your CSS that browsers ignore. They explain what your code
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Explain WHY, not WHAT**
 ```css
@@ -205,7 +205,7 @@ Comments are notes in your CSS that browsers ignore. They explain what your code
 /* NOTE: This value matches the design system */
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't Over-Comment Obvious Code**
 ```css
@@ -357,11 +357,11 @@ Comments are notes in your CSS that browsers ignore. They explain what your code
 
 **Comment Guidelines:**
 ```css
-/* ✅ Good: Explains reasoning */
-/* ❌ Bad: States the obvious */
-/* 📝 TODO: Future improvements */
-/* 🐛 FIXME: Known bugs */
-/* 💡 NOTE: Important context */
+/* Good: Explains reasoning */
+/* Bad: States the obvious */
+/* TODO: Future improvements */
+/* FIXME: Known bugs */
+/* NOTE: Important context */
 ```
 
 ---

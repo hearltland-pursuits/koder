@@ -249,7 +249,7 @@ html {
 ### Pixels (px)
 
 ```css
-/* ✅ Use for: */
+/* Use for: */
 .element {
   border: 1px solid black; /* Borders */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Shadows */
@@ -260,7 +260,7 @@ html {
 ### REM
 
 ```css
-/* ✅ Use for: */
+/* Use for: */
 .element {
   font-size: 1.5rem; /* Font sizes */
   padding: 2rem; /* Spacing (scales with font) */
@@ -271,7 +271,7 @@ html {
 ### Percentage (%)
 
 ```css
-/* ✅ Use for: */
+/* Use for: */
 .element {
   width: 50%; /* Fluid widths */
   padding: 5%; /* Relative spacing */
@@ -281,7 +281,7 @@ html {
 ### Viewport Units (vw, vh)
 
 ```css
-/* ✅ Use for: */
+/* Use for: */
 .hero {
   height: 100vh; /* Full-screen sections */
   width: 100vw; /* Full-width backgrounds */
@@ -395,7 +395,7 @@ html {
 | `em`, `rem` | 1+ | 1+ | 1+ | 12+ | 9+ |
 | `%` | 1+ | 1+ | 1+ | 12+ | 3+ |
 | `vw`, `vh` | 26+ | 19+ | 6.1+ | 12+ | 9+ |
-| `vmin`, `vmax` | 26+ | 19+ | 6.1+ | 12+ | ❌ (vmax) |
+| `vmin`, `vmax` | 26+ | 19+ | 6.1+ | 12+ | (vmax) |
 | `ch` | 27+ | 1+ | 7+ | 12+ | 9+ |
 
 **Excellent support** for most units in modern browsers.
@@ -404,7 +404,7 @@ html {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use rem for font sizes**
 ```css
@@ -448,16 +448,16 @@ h1 {
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't use px for font sizes**
 ```css
-/* ❌ Bad - not accessible */
+/* Bad - not accessible */
 body {
   font-size: 16px;
 }
 
-/* ✅ Good - scales with user preferences */
+/* Good - scales with user preferences */
 body {
   font-size: 1rem;
 }
@@ -465,7 +465,7 @@ body {
 
 **2. Don't use em for font sizes (compounding issues)**
 ```css
-/* ❌ Bad - compounds in nested elements */
+/* Bad - compounds in nested elements */
 .parent {
   font-size: 1.5em;
 }
@@ -474,7 +474,7 @@ body {
   font-size: 1.5em; /* 1.5 × 1.5 = 2.25× root! */
 }
 
-/* ✅ Good - use rem */
+/* Good - use rem */
 .parent {
   font-size: 1.5rem;
 }
@@ -486,12 +486,12 @@ body {
 
 **3. Don't use viewport units without limits**
 ```css
-/* ❌ Bad - too small on mobile, too large on desktop */
+/* Bad - too small on mobile, too large on desktop */
 .text {
   font-size: 5vw;
 }
 
-/* ✅ Good - add min/max */
+/* Good - add min/max */
 .text {
   font-size: clamp(1rem, 5vw, 3rem);
 }

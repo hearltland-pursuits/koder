@@ -519,8 +519,8 @@ animation:
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `@keyframes` | ✅ 43+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ |
-| `animation` | ✅ 43+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ |
+| `@keyframes` | 43+ | 16+ | 9+ | 12+ | 10+ |
+| `animation` | 43+ | 16+ | 9+ | 12+ | 10+ |
 
 **Vendor Prefixes (Older Browsers):**
 ```css
@@ -540,7 +540,7 @@ animation:
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `transform` and `opacity` for Performance**
    ```css
@@ -571,7 +571,7 @@ animation:
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Too Many Simultaneous Animations**
 2. **Animating Layout Properties (width, height)**
@@ -602,7 +602,7 @@ animation:
 
 ## Practice Exercise
 
-### 🎯 Challenge: Create a Loading Screen with Multiple Animations
+### Challenge: Create a Loading Screen with Multiple Animations
 
 **Requirements:**
 - [ ] Spinning loader icon (infinite rotation)
@@ -634,7 +634,7 @@ animation:
 **Previous:** [← Transitions](transitions.md)
 **Next:** [Image Styling →](../10-images-media/image-styling.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

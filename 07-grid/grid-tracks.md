@@ -450,7 +450,7 @@ grid-template-columns: auto 1fr;
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `fr` for flexible layouts**
    ```css
@@ -472,7 +472,7 @@ grid-template-columns: auto 1fr;
    grid-auto-rows: minmax(100px, auto);
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Too-small minimum sizes**
    ```css
@@ -534,7 +534,7 @@ Create a responsive product grid that:
 **Previous:** [← Grid Container](grid-container.md)
 **Next:** [Grid Gaps →](grid-gaps.md)
 **Up:** [↑ Back to Grid](../README.md#7️⃣-grid-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

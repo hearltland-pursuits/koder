@@ -307,7 +307,7 @@ Buttons are the primary call-to-action elements. Good button design improves usa
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Minimum size 44x44px (touch target)**
    ```css
@@ -326,7 +326,7 @@ Buttons are the primary call-to-action elements. Good button design improves usa
    <a href="/page" class="btn">Link Button</a>
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Too many button styles on one page**
 2. **Missing disabled state**
@@ -349,7 +349,7 @@ Buttons are the primary call-to-action elements. Good button design improves usa
 **Previous:** [← Forms](forms.md)
 **Next:** [Navigation Bars →](navigation-bars.md)
 **Up:** [↑ Back to Components](../README.md#1️⃣1️⃣-components-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

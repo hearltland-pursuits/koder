@@ -174,20 +174,20 @@ Universal support for basic fonts. Web fonts: IE9+.
 
 ## Best Practices
 
-✅ **Use system fonts for performance**
+**Use system fonts for performance**
 ```css
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 ```
 
-✅ **Limit web font weights** (faster loading)
+**Limit web font weights** (faster loading)
 ```html
 <!-- Good: 2-3 weights -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 ```
 
-❌ **Don't load too many fonts**
+**Don't load too many fonts**
 ```html
 <!-- Bad: slow -->
 <link href="...font1...">

@@ -115,11 +115,11 @@ a:active { } /* A - Active */
 
 **Example of broken order:**
 ```css
-/* ❌ BAD - hover won't work on visited links */
+/* BAD - hover won't work on visited links */
 a:visited { color: purple; }
 a:hover { color: red; } /* Visited links stay purple! */
 
-/* ✅ GOOD - hover works */
+/* GOOD - hover works */
 a:visited { color: purple; }
 a:hover { color: red; } /* All links turn red on hover */
 ```
@@ -285,7 +285,7 @@ a:focus {
 3. **Color contrast:** Meet WCAG AA (4.5:1 for normal text)
 4. **Don't rely on color alone:** Use underlines or other indicators
 
-### ✅ Accessible Link Styles
+### Accessible Link Styles
 
 ```css
 /* Clear distinction from body text */
@@ -310,7 +310,7 @@ a:focus {
 }
 ```
 
-### ❌ Inaccessible Link Styles
+### Inaccessible Link Styles
 
 ```css
 /* BAD - no visual distinction */
@@ -462,7 +462,7 @@ nav a:focus {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use LVHFA order**
 ```css
@@ -499,7 +499,7 @@ a {
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't remove all visual indicators**
 ```css

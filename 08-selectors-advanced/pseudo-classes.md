@@ -196,7 +196,7 @@ input:focus {
 
 /* Remove default outline, add custom focus style */
 button:focus {
-  outline: none; /* ⚠️ ONLY do this if you add a custom style */
+  outline: none; /* ONLY do this if you add a custom style */
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
 }
 ```
@@ -872,7 +872,7 @@ input[type="checkbox"]:checked {
 }
 
 input[type="checkbox"]:checked::before {
-  content: "✓";
+  content: "";
   color: white;
   display: block;
   text-align: center;
@@ -888,14 +888,14 @@ input[type="checkbox"]:checked::before {
 
 | Pseudo-Class | Chrome | Firefox | Safari | Edge | IE 11 |
 |--------------|--------|---------|--------|------|-------|
-| `:hover`, `:active`, `:focus` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `:nth-child()`, `:nth-of-type()` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `:checked`, `:disabled`, `:enabled` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `:valid`, `:invalid` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `:focus-visible` | ✅ 86+ | ✅ 85+ | ✅ 15.4+ | ✅ 86+ | ❌ None |
-| `:focus-within` | ✅ 60+ | ✅ 52+ | ✅ 10.1+ | ✅ 79+ | ❌ None |
-| `:is()`, `:where()` | ✅ 88+ | ✅ 78+ | ✅ 14+ | ✅ 88+ | ❌ None |
-| `:has()` | ✅ 105+ | ✅ 103+ | ✅ 15.4+ | ✅ 105+ | ❌ None |
+| `:hover`, `:active`, `:focus` | All | All | All | All | Full |
+| `:nth-child()`, `:nth-of-type()` | All | All | All | All | Full |
+| `:checked`, `:disabled`, `:enabled` | All | All | All | All | Full |
+| `:valid`, `:invalid` | All | All | All | All | Full |
+| `:focus-visible` | 86+ | 85+ | 15.4+ | 86+ | None |
+| `:focus-within` | 60+ | 52+ | 10.1+ | 79+ | None |
+| `:is()`, `:where()` | 88+ | 78+ | 14+ | 88+ | None |
+| `:has()` | 105+ | 103+ | 15.4+ | 105+ | None |
 
 **Fallback Strategy:**
 ```css
@@ -918,7 +918,7 @@ a:focus-visible {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always Provide Focus Styles (Accessibility)**
    ```css
@@ -953,7 +953,7 @@ a:focus-visible {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Removing Focus Styles Without Replacement**
    ```css
@@ -994,7 +994,7 @@ a:focus-visible {
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Section:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1680s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=1680s)
 
@@ -1034,7 +1034,7 @@ Live coding demonstrations of common pseudo-class patterns, including interactiv
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build an Interactive Product Card
+### Challenge: Build an Interactive Product Card
 
 **Objective:** Create a product card that uses pseudo-classes for hover effects, focus states, and interactive feedback.
 
@@ -1265,7 +1265,7 @@ body {
 **Previous:** [← Combinators](combinators.md)
 **Next:** [Pseudo-Elements →](pseudo-elements.md)
 **Up:** [↑ Back to Selectors Advanced](../README.md#8️⃣-selectors-advanced-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

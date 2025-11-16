@@ -271,7 +271,7 @@ transition:
 
 ## Animatable Properties
 
-### ✅ Recommended (Hardware Accelerated)
+### Recommended (Hardware Accelerated)
 
 These properties animate smoothly with GPU acceleration:
 
@@ -288,7 +288,7 @@ transition:
 
 ---
 
-### ⚠️ Use Cautiously (May Cause Reflow)
+### Use Cautiously (May Cause Reflow)
 
 These properties can trigger layout recalculation (slower):
 
@@ -311,7 +311,7 @@ transition:
 
 ---
 
-### ✅ Other Commonly Animated Properties
+### Other Commonly Animated Properties
 
 ```css
 transition:
@@ -460,8 +460,8 @@ a:hover { color: red; }
 
 | Property | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `transition` | ✅ 26+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ |
-| All timing functions | ✅ 26+ | ✅ 16+ | ✅ 9+ | ✅ 12+ | ✅ 10+ |
+| `transition` | 26+ | 16+ | 9+ | 12+ | 10+ |
+| All timing functions | 26+ | 16+ | 9+ | 12+ | 10+ |
 
 **Can I Use:** [https://caniuse.com/css-transitions](https://caniuse.com/css-transitions)
 
@@ -469,7 +469,7 @@ a:hover { color: red; }
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `ease-out` for User-Triggered Actions**
    ```css
@@ -497,7 +497,7 @@ a:hover { color: red; }
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Animating Layout Properties (Slow)**
    ```css
@@ -540,7 +540,7 @@ a:hover { color: red; }
 
 ## Practice Exercise
 
-### 🎯 Challenge: Create an Interactive Button Set
+### Challenge: Create an Interactive Button Set
 
 **Requirements:**
 - [ ] Button changes color on hover (0.3s)
@@ -555,7 +555,7 @@ a:hover { color: red; }
 **Previous:** [← 3D Transforms](transforms-3d.md)
 **Next:** [Animations →](animations.md)
 **Up:** [↑ Back to Visual Effects](../README.md#9️⃣-visual-effects-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

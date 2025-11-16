@@ -104,14 +104,14 @@ Universal support across all browsers.
 
 ## Best Practices
 
-✅ **Use margins for spacing between elements**
+**Use margins for spacing between elements**
 ```css
 .card {
   margin-bottom: 20px; /* Space between cards */
 }
 ```
 
-✅ **Use `auto` for centering**
+**Use `auto` for centering**
 ```css
 .container {
   max-width: 1200px;
@@ -119,7 +119,7 @@ Universal support across all browsers.
 }
 ```
 
-❌ **Don't use margins for internal spacing** (use padding)
+**Don't use margins for internal spacing** (use padding)
 ```css
 /* Bad */
 .box { margin: 20px; } /* Inside element? Use padding */

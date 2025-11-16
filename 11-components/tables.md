@@ -286,7 +286,7 @@ td {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use border-collapse**
    ```css
@@ -303,7 +303,7 @@ td {
    .table-container { overflow-x: auto; }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Fixed widths on mobile**
 2. **Missing thead/tbody**
@@ -324,7 +324,7 @@ td {
 **Previous:** [← Opacity](../09-visual-effects/opacity.md)
 **Next:** [Forms →](forms.md)
 **Up:** [↑ Back to Components](../README.md#1️⃣1️⃣-components-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

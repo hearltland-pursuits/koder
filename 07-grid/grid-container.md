@@ -540,7 +540,7 @@ place-content: space-between center;
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use fr units for flexible layouts**
    ```css
@@ -571,7 +571,7 @@ place-content: space-between center;
    gap: 20px;
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Too many explicit rows/columns**
    ```css
@@ -636,7 +636,7 @@ Create a responsive blog layout with:
 **Previous:** [← Grid Introduction](grid-intro.md)
 **Next:** [Grid Tracks →](grid-tracks.md)
 **Up:** [↑ Back to Grid](../README.md#7️⃣-grid-8-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

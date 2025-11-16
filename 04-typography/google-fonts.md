@@ -26,11 +26,11 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 **Google Fonts:** Free, open-source web fonts hosted by Google.
 
 **Benefits:**
-- ✅ 1400+ professional fonts
-- ✅ Free forever
-- ✅ Fast CDN delivery
-- ✅ Auto-optimized for web
-- ✅ No account/API key needed
+- 1400+ professional fonts
+- Free forever
+- Fast CDN delivery
+- Auto-optimized for web
+- No account/API key needed
 
 **Website:** https://fonts.google.com/
 
@@ -159,12 +159,12 @@ body {
 
 ### 1. Limit Font Weights
 
-**❌ Bad - loads 9 weights (slow):**
+**Bad - loads 9 weights (slow):**
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap">
 ```
 
-**✅ Good - loads 2-3 weights only:**
+**Good - loads 2-3 weights only:**
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 ```
@@ -329,7 +329,7 @@ body {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Limit to 2-3 font weights**
 ```html
@@ -362,7 +362,7 @@ h1 { font-family: 'Playfair Display', serif; }
 body { font-family: 'Lato', sans-serif; }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't load too many weights**
 ```html

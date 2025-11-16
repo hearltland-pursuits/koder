@@ -280,7 +280,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 ## Use Cases Today
 
-### ✅ Still Use Float For:
+### Still Use Float For:
 
 **1. Text wrapping around images**
 ```css
@@ -303,7 +303,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 }
 ```
 
-### ❌ Don't Use Float For:
+### Don't Use Float For:
 
 - Page layouts (use Grid)
 - Navigation menus (use Flexbox)
@@ -464,7 +464,7 @@ article {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use float for text wrapping**
 ```css
@@ -493,24 +493,24 @@ article {
 
 **4. Use modern layouts for grids**
 ```css
-/* ✅ Good - use Grid/Flexbox for layouts */
+/* Good - use Grid/Flexbox for layouts */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't use float for page layouts**
 ```css
-/* ❌ Bad - use Grid instead */
+/* Bad - use Grid instead */
 .col {
   float: left;
   width: 33.333%;
 }
 
-/* ✅ Good */
+/* Good */
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -519,7 +519,7 @@ article {
 
 **2. Don't forget to clear**
 ```css
-/* ❌ Bad - parent collapses */
+/* Bad - parent collapses */
 .parent {
   /* No clearfix */
 }
@@ -528,7 +528,7 @@ article {
   float: left;
 }
 
-/* ✅ Good */
+/* Good */
 .parent::after {
   content: "";
   display: table;
@@ -538,12 +538,12 @@ article {
 
 **3. Don't nest too many floats**
 ```css
-/* ❌ Bad - complex, error-prone */
+/* Bad - complex, error-prone */
 .outer { float: left; }
 .inner { float: left; }
 .nested { float: left; }
 
-/* ✅ Good - use Flexbox */
+/* Good - use Flexbox */
 .container {
   display: flex;
   flex-wrap: wrap;

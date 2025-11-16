@@ -35,7 +35,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 
 **WCAG Levels:**
 - **Level A:** Minimum (basic accessibility)
-- **Level AA:** Standard (most laws require this) ✅ **Target this**
+- **Level AA:** Standard (most laws require this) **Target this**
 - **Level AAA:** Enhanced (ideal but not always required)
 
 ---
@@ -56,19 +56,19 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 ### Good Contrast Examples
 
 ```css
-/* ✅ Good: 7.5:1 contrast ratio */
+/* Good: 7.5:1 contrast ratio */
 .text-primary {
   color: #212529; /* Very dark gray */
   background: #ffffff; /* White */
 }
 
-/* ✅ Good: 4.8:1 contrast ratio */
+/* Good: 4.8:1 contrast ratio */
 .button {
   color: #ffffff; /* White */
   background: #0066cc; /* Blue */
 }
 
-/* ❌ Bad: 2.1:1 contrast ratio (fails AA) */
+/* Bad: 2.1:1 contrast ratio (fails AA) */
 .text-gray {
   color: #999999; /* Light gray */
   background: #ffffff; /* White */
@@ -91,7 +91,7 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
   color: #6c757d; /* Inspect this */
   background: white;
 }
-/* DevTools will show: Contrast ratio: 4.54 ✅ (passes AA) */
+/* DevTools will show: Contrast ratio: 4.54 (passes AA) */
 ```
 
 ---
@@ -99,18 +99,18 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 ### Color Blindness Considerations
 
 ```css
-/* ❌ Bad: Only relies on color */
+/* Bad: Only relies on color */
 .error {
   color: red; /* Color-blind users may miss this */
 }
 
-/* ✅ Good: Color + icon + text */
+/* Good: Color + icon + text */
 .error {
   color: #dc3545;
 }
 
 .error::before {
-  content: '⚠ '; /* Visual indicator */
+  content: ' '; /* Visual indicator */
 }
 ```
 
@@ -129,12 +129,12 @@ youtube_video: https://www.youtube.com/watch?v=OXGznpKZ_sA
 ### Visible Focus Indicators
 
 ```css
-/* ❌ NEVER DO THIS */
+/* NEVER DO THIS */
 *:focus {
   outline: none; /* Removes accessibility */
 }
 
-/* ✅ Always provide visible focus */
+/* Always provide visible focus */
 a:focus,
 button:focus,
 input:focus {
@@ -142,7 +142,7 @@ input:focus {
   outline-offset: 2px;
 }
 
-/* ✅ Or custom focus ring */
+/* Or custom focus ring */
 .button:focus {
   outline: none; /* OK if replaced */
   box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.5);
@@ -258,12 +258,12 @@ button:focus-visible {
 ### Font Size
 
 ```css
-/* ❌ Bad: Fixed pixel sizes prevent zooming */
+/* Bad: Fixed pixel sizes prevent zooming */
 body {
   font-size: 14px;
 }
 
-/* ✅ Good: Relative units respect user preferences */
+/* Good: Relative units respect user preferences */
 body {
   font-size: 1rem; /* User can zoom */
 }
@@ -296,7 +296,7 @@ p {
 ### Text Readability
 
 ```css
-/* ✅ Good: High contrast, readable font */
+/* Good: High contrast, readable font */
 .content {
   font-family: 'Segoe UI', Arial, sans-serif;
   font-size: 18px; /* Larger for readability */
@@ -306,7 +306,7 @@ p {
   max-width: 70ch; /* 70 characters per line (optimal readability) */
 }
 
-/* ❌ Bad: Low contrast, tiny text */
+/* Bad: Low contrast, tiny text */
 .content-bad {
   font-size: 12px;
   color: #999;
@@ -321,7 +321,7 @@ p {
 ### Visually Hidden (Screen Reader Only)
 
 ```css
-/* ✅ Hide visually, but accessible to screen readers */
+/* Hide visually, but accessible to screen readers */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -357,18 +357,18 @@ p {
 ### Display: none vs Visibility: hidden
 
 ```css
-/* ❌ Hidden from screen readers too */
+/* Hidden from screen readers too */
 .hidden {
   display: none; /* Screen readers ignore this */
 }
 
-/* ✅ Hidden visually, but screen readers can access */
+/* Hidden visually, but screen readers can access */
 .visually-hidden {
   visibility: hidden; /* Only hides visually */
   position: absolute;
 }
 
-/* ✅ Or use .sr-only class above */
+/* Or use .sr-only class above */
 ```
 
 ---
@@ -388,14 +388,14 @@ p {
 
 **HTML:**
 ```html
-<!-- ✅ Good: Natural order -->
+<!-- Good: Natural order -->
 <nav>
   <a href="#home">Home</a>
   <a href="#about">About</a>
   <a href="#contact">Contact</a>
 </nav>
 
-<!-- ❌ Bad: Custom tab order (confusing) -->
+<!-- Bad: Custom tab order (confusing) -->
 <a href="#contact" tabindex="3">Contact</a>
 <a href="#home" tabindex="1">Home</a>
 <a href="#about" tabindex="2">About</a>
@@ -466,7 +466,7 @@ input[type="radio"] {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always provide focus states**
    ```css
@@ -479,7 +479,7 @@ input[type="radio"] {
    ```css
    color: #212529;
    background: #ffffff;
-   /* Contrast: 16.1:1 ✅ */
+   /* Contrast: 16.1:1 */
    ```
 
 3. **Respect prefers-reduced-motion**
@@ -515,7 +515,7 @@ input[type="radio"] {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't remove focus outlines**
    ```css
@@ -635,9 +635,9 @@ Target: 100 accessibility score in Lighthouse
 ## Navigation
 
 **Previous:** [← Optimization](optimization.md)
-**Next:** [Course Complete! 🎉](../README.md)
+**Next:** [Course Complete! ](../README.md)
 **Up:** [↑ Back to Modern CSS](../README.md#1️⃣3️⃣-modern-css-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

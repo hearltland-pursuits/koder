@@ -420,7 +420,7 @@ Backgrounds transform plain boxes into visually rich elements. A solid color cre
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use `cover` for Hero Sections**
    ```css
@@ -443,7 +443,7 @@ Backgrounds transform plain boxes into visually rich elements. A solid color cre
    - Compress images (aim for <200KB for backgrounds)
    - Use appropriate dimensions (don't use 4K image for 500px div)
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Forget `no-repeat` for Photos**
    ```css

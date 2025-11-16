@@ -289,16 +289,16 @@ element.style.color = `rgb(${r}, ${g}, ${b})`;
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 **1. Use RGBA for transparency**
 ```css
-/* ✅ Good - clear intent */
+/* Good - clear intent */
 .overlay {
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* ❌ Bad - opacity affects children too */
+/* Bad - opacity affects children too */
 .overlay {
   background: rgb(0, 0, 0);
   opacity: 0.5; /* Affects all children */
@@ -324,27 +324,27 @@ element.style.color = `rgb(${r}, ${g}, ${b})`;
 
 **3. Use RGB for JavaScript-generated colors**
 ```javascript
-// ✅ Easy to manipulate
+// Easy to manipulate
 const color = `rgb(${r}, ${g}, ${b})`;
 ```
 
-### ❌ Avoid This
+### Avoid This
 
 **1. Don't use decimal values**
 ```css
-/* ❌ Bad - harder to read */
+/* Bad - harder to read */
 .box { color: rgb(255.5, 128.7, 64.2); }
 
-/* ✅ Good - integers only */
+/* Good - integers only */
 .box { color: rgb(255, 129, 64); }
 ```
 
 **2. Don't mix alpha in rgb()**
 ```css
-/* ❌ Bad - syntax error */
+/* Bad - syntax error */
 .box { background: rgb(255, 0, 0, 0.5); }
 
-/* ✅ Good - use rgba() */
+/* Good - use rgba() */
 .box { background: rgba(255, 0, 0, 0.5); }
 ```
 

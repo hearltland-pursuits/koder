@@ -136,12 +136,12 @@ CSS supports **140 named colors** like `red`, `blue`, `green`, `purple`, `orange
 
 ### When to Use Named Colors
 
-✅ **Good for:**
+**Good for:**
 - Prototyping (fast, readable)
 - Learning CSS
 - Generic styles (black text, white backgrounds)
 
-❌ **Avoid for:**
+**Avoid for:**
 - Brand-specific colors (use HEX)
 - Precise color control (limited palette)
 - Professional projects (use HEX/RGB/HSL)
@@ -203,13 +203,13 @@ color: #F00;
 
 ### When to Use HEX
 
-✅ **Best for:**
+**Best for:**
 - Design tools export HEX (Figma, Photoshop, Sketch)
 - Brand style guides use HEX
 - Standard web development practice
 - Most concise format
 
-❌ **Avoid when:**
+**Avoid when:**
 - You need transparency (use RGBA)
 - You want intuitive adjustments (use HSL)
 
@@ -263,13 +263,13 @@ Add a 4th value for **alpha** (opacity): `0` = transparent, `1` = opaque
 
 ### When to Use RGB/RGBA
 
-✅ **Best for:**
+**Best for:**
 - JavaScript-generated colors (easier to manipulate numbers)
 - Transparency effects (RGBA)
 - Programmatic color mixing
 - CSS animations (interpolating between values)
 
-❌ **Avoid when:**
+**Avoid when:**
 - Hand-coding colors (HEX is more concise)
 - You want intuitive brightness adjustments (use HSL)
 
@@ -329,7 +329,7 @@ hsl(210, 80%, 60%)
 
 ### When to Use HSL
 
-✅ **Best for:**
+**Best for:**
 - Creating color variations (lighter/darker shades)
 - Building color themes programmatically
 - Intuitive color adjustments
@@ -553,7 +553,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* Contrast ratio: 8.6:1 ✅ Passes WCAG AAA */
+/* Contrast ratio: 8.6:1 Passes WCAG AAA */
 
 .bad-contrast {
   background-color: #77b3d4; /* Light blue */
@@ -561,7 +561,7 @@ body {
   padding: 20px;
 }
 
-/* Contrast ratio: 1.5:1 ❌ Fails WCAG (needs 4.5:1) */
+/* Contrast ratio: 1.5:1 Fails WCAG (needs 4.5:1) */
 ```
 
 **Tool:** Use [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to verify accessibility.
@@ -678,7 +678,7 @@ All CSS color systems have universal browser support.
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use HEX for Brand Colors**
    ```css
@@ -722,7 +722,7 @@ All CSS color systems have universal browser support.
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Use Inline Color Styles**
    ```html
@@ -759,7 +759,7 @@ All CSS color systems have universal browser support.
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Colors Section:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=2100s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=2100s)
 
@@ -799,7 +799,7 @@ All CSS color systems have universal browser support.
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a Color Theme Switcher
+### Challenge: Build a Color Theme Switcher
 
 **Objective:** Create a webpage with multiple color themes using different CSS color systems.
 

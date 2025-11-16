@@ -46,7 +46,7 @@ Before attribute selectors, you'd need to manually add classes to every element 
 ```css
 /* Style PDF links with an icon */
 a[href$=".pdf"]::after {
-  content: " 📄";
+  content: " ";
 }
 
 /* Style external links */
@@ -56,7 +56,7 @@ a[href^="http"]::after {
 
 /* Style email links */
 a[href^="mailto:"]::before {
-  content: "✉ ";
+  content: " ";
 }
 ```
 
@@ -252,7 +252,7 @@ a[href^="tel:"] {
 ```css
 /* PDF links */
 a[href$=".pdf"]::after {
-  content: " 📄 PDF";
+  content: "  PDF";
   font-size: 0.8rem;
   color: red;
 }
@@ -309,7 +309,7 @@ div[data-role*="admin"] {
 ```css
 /* Match "PDF", "pdf", "Pdf", etc. */
 a[href$=".pdf" i]::after {
-  content: " 📄";
+  content: " ";
 }
 
 /* Match input types regardless of case */
@@ -363,19 +363,19 @@ a[href^="http"]::after {
 
 /* PDF links */
 a[href$=".pdf"]::after {
-  content: " 📄";
+  content: " ";
   color: #dc3545;
 }
 
 /* Email links */
 a[href^="mailto:"]::before {
-  content: "✉ ";
+  content: " ";
   color: #28a745;
 }
 
 /* Phone links */
 a[href^="tel:"]::before {
-  content: "📞 ";
+  content: " ";
   color: #ffc107;
 }
 ```
@@ -384,9 +384,9 @@ a[href^="tel:"]::before {
 ```
 About Us
 External Site ↗
-📄 User Guide
-✉ Email Us
-📞 Call Us
+ User Guide
+ Email Us
+ Call Us
 ```
 
 ---
@@ -554,7 +554,7 @@ a[href*="github.com"] {
 }
 
 a[href*="github.com"]::before {
-  content: "🐙 ";
+  content: " ";
 }
 ```
 
@@ -634,14 +634,14 @@ a[data-size]::after {
 
 | Selector | Chrome | Firefox | Safari | Edge | IE 11 |
 |----------|--------|---------|--------|------|-------|
-| `[attribute]` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `[attribute="value"]` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `[attribute^="value"]` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `[attribute$="value"]` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `[attribute*="value"]` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `[attribute~="value"]` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `[attribute\|="value"]` | ✅ All | ✅ All | ✅ All | ✅ All | ✅ Full |
-| `[attribute="value" i]` | ✅ 49+ | ✅ 47+ | ✅ 9+ | ✅ 79+ | ❌ None |
+| `[attribute]` | All | All | All | All | Full |
+| `[attribute="value"]` | All | All | All | All | Full |
+| `[attribute^="value"]` | All | All | All | All | Full |
+| `[attribute$="value"]` | All | All | All | All | Full |
+| `[attribute*="value"]` | All | All | All | All | Full |
+| `[attribute~="value"]` | All | All | All | All | Full |
+| `[attribute\|="value"]` | All | All | All | All | Full |
+| `[attribute="value" i]` | 49+ | 47+ | 9+ | 79+ | None |
 
 **Verdict:** All attribute selectors have **100% support** except case-insensitive flag (`i`).
 
@@ -651,11 +651,11 @@ a[data-size]::after {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use for Dynamic Content (File Types, Links)**
    ```css
-   a[href$=".pdf"]::after { content: " 📄"; }
+   a[href$=".pdf"]::after { content: " "; }
    a[href^="http"]::after { content: " ↗"; }
    ```
    **Why:** Automatically styles links without manual class assignment.
@@ -687,7 +687,7 @@ a[data-size]::after {
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Over-Relying on Attribute Selectors (Performance)**
    ```css
@@ -702,12 +702,12 @@ a[data-size]::after {
 2. **Case-Sensitive Matching Without `i` Flag**
    ```css
    /* Won't match "PDF", "Pdf", etc. */
-   a[href$=".pdf"]::after { content: " 📄"; }
+   a[href$=".pdf"]::after { content: " "; }
    ```
    **Problem:** Users might upload files as `.PDF` (uppercase).
    **Instead:**
    ```css
-   a[href$=".pdf" i]::after { content: " 📄"; }
+   a[href$=".pdf" i]::after { content: " "; }
    ```
 
 3. **Using for Critical Styling**
@@ -724,7 +724,7 @@ a[data-size]::after {
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Section:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=2100s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=2100s)
 
@@ -764,7 +764,7 @@ Practical demonstrations of automatically styling links, forms, and components u
 
 ## Practice Exercise
 
-### 🎯 Challenge: Build a File Library with Automatic Icons
+### Challenge: Build a File Library with Automatic Icons
 
 **Objective:** Create a file download list that automatically styles links based on file type using attribute selectors.
 
@@ -867,7 +867,7 @@ a:hover {
 
 /* PDF files (case-insensitive) */
 a[href$=".pdf" i]::before {
-  content: "📄 ";
+  content: " ";
   color: #dc3545;
   font-weight: bold;
 }
@@ -879,7 +879,7 @@ a[href$=".pdf" i] {
 /* Word documents */
 a[href$=".doc" i]::before,
 a[href$=".docx" i]::before {
-  content: "📘 ";
+  content: " ";
   color: #007bff;
   font-weight: bold;
 }
@@ -892,7 +892,7 @@ a[href$=".docx" i] {
 /* Excel files */
 a[href$=".xls" i]::before,
 a[href$=".xlsx" i]::before {
-  content: "📊 ";
+  content: " ";
   color: #28a745;
   font-weight: bold;
 }
@@ -947,9 +947,9 @@ a[data-required="true"] {
 ### Expected Result
 
 **Visual Outcome:**
-- PDF files: Red PDF icon (📄) and red left border
-- Word files: Blue book icon (📘) and blue left border
-- Excel files: Green chart icon (📊) and green left border
+- PDF files: Red PDF icon () and red left border
+- Word files: Blue book icon () and blue left border
+- Excel files: Green chart icon () and green left border
 - External links: External link icon (↗) after text
 - Required files: Red asterisk (*) and yellow background
 
@@ -967,7 +967,7 @@ a[data-required="true"] {
 **Previous:** [← Pseudo-Elements](pseudo-elements.md)
 **Next:** [Gradients →](../09-visual-effects/gradients.md)
 **Up:** [↑ Back to Selectors Advanced](../README.md#8️⃣-selectors-advanced-6-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

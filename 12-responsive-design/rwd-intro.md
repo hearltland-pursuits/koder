@@ -249,10 +249,10 @@ h1 {
 ```
 
 **Benefits:**
-- ✅ Faster mobile performance (less CSS to override)
-- ✅ Forces focus on essential content
-- ✅ Easier to enhance than strip down
-- ✅ Google mobile-first indexing friendly
+- Faster mobile performance (less CSS to override)
+- Forces focus on essential content
+- Easier to enhance than strip down
+- Google mobile-first indexing friendly
 
 ### Desktop-First
 
@@ -283,9 +283,9 @@ h1 {
 ```
 
 **Drawbacks:**
-- ❌ Mobile loads unnecessary CSS
-- ❌ Harder to "remove" than "add"
-- ❌ Encourages desktop-centric thinking
+- Mobile loads unnecessary CSS
+- Harder to "remove" than "add"
+- Encourages desktop-centric thinking
 
 ---
 
@@ -483,7 +483,7 @@ body {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always include viewport meta tag**
    ```html
@@ -506,7 +506,7 @@ body {
 5. **Content-based breakpoints**
    - Add breakpoints where **content breaks**, not at device sizes
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't disable zoom**
    ```html
@@ -559,7 +559,7 @@ Create a responsive card grid that:
 **Previous:** [← Components](../11-components/tooltips.md)
 **Next:** [Viewport →](viewport.md)
 **Up:** [↑ Back to Responsive Design](../README.md#1️⃣2️⃣-responsive-design-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

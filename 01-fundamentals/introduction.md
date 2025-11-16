@@ -198,7 +198,7 @@ You'll see:
 - Centered dark blue heading
 - Gray paragraph text with readable spacing
 
-**Congratulations!** You just wrote CSS. 🎉
+**Congratulations!** You just wrote CSS. 
 
 ---
 
@@ -374,13 +374,13 @@ body {
 ```
 
 **Pros:**
-- ✅ Reusable across multiple pages
-- ✅ Cached by browser (faster load times)
-- ✅ Clean separation of concerns
-- ✅ Easier to maintain
+- Reusable across multiple pages
+- Cached by browser (faster load times)
+- Clean separation of concerns
+- Easier to maintain
 
 **Cons:**
-- ❌ Requires extra HTTP request (minor)
+- Requires extra HTTP request (minor)
 
 ---
 
@@ -413,13 +413,13 @@ Write CSS inside a `<style>` tag in the HTML `<head>`:
 ```
 
 **Pros:**
-- ✅ No external file needed
-- ✅ Styles travel with the HTML
+- No external file needed
+- Styles travel with the HTML
 
 **Cons:**
-- ❌ Not reusable across pages
-- ❌ Makes HTML files larger
-- ❌ Harder to maintain
+- Not reusable across pages
+- Makes HTML files larger
+- Harder to maintain
 
 ---
 
@@ -434,14 +434,14 @@ Write CSS directly on HTML elements using the `style` attribute:
 ```
 
 **Pros:**
-- ✅ Highest specificity (overrides other CSS)
-- ✅ Useful for JavaScript-generated styles
+- Highest specificity (overrides other CSS)
+- Useful for JavaScript-generated styles
 
 **Cons:**
-- ❌ Not reusable
-- ❌ Makes HTML messy
-- ❌ Hard to maintain
-- ❌ No caching benefits
+- Not reusable
+- Makes HTML messy
+- Hard to maintain
+- No caching benefits
 
 ---
 
@@ -467,8 +467,8 @@ CSS has been supported by all major browsers since the 1990s. However, **modern 
 |---------|--------|---------|--------|------|-------|
 | Basic CSS | 1+ | 1+ | 1+ | 12+ | 5+ |
 | Flexbox | 29+ | 28+ | 9+ | 12+ | 11 (partial) |
-| Grid | 57+ | 52+ | 10.1+ | 16+ | ❌ None |
-| Custom Properties | 49+ | 31+ | 9.1+ | 15+ | ❌ None |
+| Grid | 57+ | 52+ | 10.1+ | 16+ | None |
+| Custom Properties | 49+ | 31+ | 9.1+ | 15+ | None |
 
 **Key Takeaway:** Basic CSS works everywhere. Modern features (Grid, Variables) require recent browsers. Always check [Can I Use](https://caniuse.com/) for specific features.
 
@@ -476,7 +476,7 @@ CSS has been supported by all major browsers since the 1990s. However, **modern 
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use External Stylesheets**
    ```html
@@ -534,7 +534,7 @@ CSS has been supported by all major browsers since the 1990s. However, **modern 
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't Use Inline Styles for Everything**
    ```html
@@ -583,7 +583,7 @@ CSS has been supported by all major browsers since the 1990s. However, **modern 
 
 ## Video Tutorial
 
-### 🎥 CSS Tutorial - Full Course for Beginners
+### CSS Tutorial - Full Course for Beginners
 
 **Watch Introduction:** [https://www.youtube.com/watch?v=OXGznpKZ_sA&t=0s](https://www.youtube.com/watch?v=OXGznpKZ_sA&t=0s)
 
@@ -623,7 +623,7 @@ This video section introduces CSS fundamentals, shows how CSS works with HTML, a
 
 ## Practice Exercise
 
-### 🎯 Challenge: Create Your First Styled Webpage
+### Challenge: Create Your First Styled Webpage
 
 **Objective:** Build a personal introduction page with CSS styling to practice fundamental concepts.
 
@@ -761,7 +761,7 @@ The page now has a clean, professional look with:
 **Previous:** ← First Topic
 **Next:** [CSS Syntax →](syntax.md)
 **Up:** [↑ Back to Fundamentals](../)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

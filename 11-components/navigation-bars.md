@@ -410,7 +410,7 @@ nav {
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Use semantic HTML**
    ```html
@@ -436,7 +436,7 @@ nav {
    nav a.active { background: #007bff; }
    ```
 
-### ❌ Avoid This
+### Avoid This
 
 1. **No mobile menu**
 2. **Missing focus indicators**
@@ -460,7 +460,7 @@ nav {
 **Previous:** [← Buttons](buttons.md)
 **Next:** [Dropdowns →](dropdowns.md)
 **Up:** [↑ Back to Components](../README.md#1️⃣1️⃣-components-7-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 

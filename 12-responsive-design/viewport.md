@@ -121,7 +121,7 @@ Mobile device (375px actual width)
 <meta name="viewport" content="minimum-scale=1.0, maximum-scale=1.0">
 ```
 
-**⚠️ Accessibility Warning:** DO NOT disable zooming. Users with visual impairments need zoom.
+**Accessibility Warning:** DO NOT disable zooming. Users with visual impairments need zoom.
 
 ---
 
@@ -137,7 +137,7 @@ Mobile device (375px actual width)
 <meta name="viewport" content="user-scalable=no">
 ```
 
-**⚠️ WCAG Violation:** Disabling zoom violates accessibility guidelines.
+**WCAG Violation:** Disabling zoom violates accessibility guidelines.
 
 ---
 
@@ -294,7 +294,7 @@ Responsive site on mobile:
 
 ## Best Practices
 
-### ✅ Do This
+### Do This
 
 1. **Always include viewport tag**
    ```html
@@ -326,7 +326,7 @@ Responsive site on mobile:
 
 ---
 
-### ❌ Avoid This
+### Avoid This
 
 1. **Don't disable zooming**
    ```html
@@ -397,7 +397,7 @@ Create a full-screen hero section:
 **Previous:** [← Responsive Design Intro](rwd-intro.md)
 **Next:** [Media Queries →](media-queries.md)
 **Up:** [↑ Back to Responsive Design](../README.md#1️⃣2️⃣-responsive-design-5-topics)
-**Home:** [🏠 Documentation Home](../README.md)
+**Home:** [Documentation Home](../README.md)
 
 ---
 
