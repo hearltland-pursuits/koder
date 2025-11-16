@@ -1,0 +1,21 @@
+# Project planning and session documents
+BATCH_*.md
+SESSION_*.md
+*_HANDOFF.md
+*_GUIDE.md
+*_PLAN.md
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
