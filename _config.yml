@@ -99,6 +99,8 @@ exclude:
   - "*_HANDOFF.md"
   - "*_GUIDE.md"
   - "*_PLAN.md"
+  - PROGRESS.md
+  - TEMPLATE.md
   - .gitignore
   - Gemfile
   - Gemfile.lock
