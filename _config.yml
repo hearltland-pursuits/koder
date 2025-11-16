@@ -1,0 +1,168 @@
+# ==================================
+# SITE CONFIGURATION
+# ==================================
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+
+# Site metadata
+title: "CSS Complete Documentation"
+description: "Comprehensive CSS learning resource - 95 topics from fundamentals to modern CSS"
+url: "https://hearltland-pursuits.github.io"
+baseurl: "/koder"
+author: "Joshua P. Hickman"
+
+# Favicon
+favicon_ico: "/assets/images/favicon.png"
+
+# Logo
+logo: "/assets/images/logo.png"
+
+# ==================================
+# SEARCH
+# ==================================
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# ==================================
+# NAVIGATION
+# ==================================
+
+# Enable auxiliary navigation (top-right)
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/hearltland-pursuits/koder"
+  "Portfolio":
+    - "https://hearltland-pursuits.github.io"
+
+# Enable back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# ==================================
+# FOOTER
+# ==================================
+
+footer_content: "Copyright &copy; 2025 Joshua P. Hickman. CSS Documentation Project."
+
+# ==================================
+# COLOR SCHEME (Portfolio Branding)
+# ==================================
+
+# Use custom color scheme
+color_scheme: portfolio
+
+# ==================================
+# CALLOUTS & UI COMPONENTS
+# ==================================
+
+callouts_level: loud
+callouts:
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Pro Tip
+    color: green
+  warning:
+    title: Warning
+    color: yellow
+  important:
+    title: Important
+    color: red
+
+# ==================================
+# CODE HIGHLIGHTING
+# ==================================
+
+# Use custom syntax highlighting
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# ==================================
+# COLLECTIONS & DEFAULTS
+# ==================================
+
+# Exclude files from build
+exclude:
+  - BATCH_*.md
+  - SESSION_*.md
+  - "*_HANDOFF.md"
+  - "*_GUIDE.md"
+  - "*_PLAN.md"
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+# Include files
+include:
+  - _sass
+  - assets
+
+# Default frontmatter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "01-fundamentals"
+    values:
+      parent: "Fundamentals"
+  - scope:
+      path: "02-colors"
+    values:
+      parent: "Colors"
+  - scope:
+      path: "03-box-model"
+    values:
+      parent: "Box Model"
+  - scope:
+      path: "04-typography"
+    values:
+      parent: "Typography"
+  - scope:
+      path: "05-layout-basics"
+    values:
+      parent: "Layout Basics"
+  - scope:
+      path: "06-flexbox"
+    values:
+      parent: "Flexbox"
+  - scope:
+      path: "07-grid"
+    values:
+      parent: "CSS Grid"
+  - scope:
+      path: "08-selectors-advanced"
+    values:
+      parent: "Advanced Selectors"
+  - scope:
+      path: "09-visual-effects"
+    values:
+      parent: "Visual Effects"
+  - scope:
+      path: "10-images-media"
+    values:
+      parent: "Images & Media"
+  - scope:
+      path: "11-components"
+    values:
+      parent: "Components"
+  - scope:
+      path: "12-responsive-design"
+    values:
+      parent: "Responsive Design"
+  - scope:
+      path: "13-modern-css"
+    values:
+      parent: "Modern CSS"

@@ -1,0 +1,192 @@
+// ============================================
+// PORTFOLIO COLOR SCHEME
+// Joshua P. Hickman Brand Colors
+// ============================================
+
+// Brand Colors (from portfolio)
+$bg-primary: #232628;
+$dark-accent-1: #3b423e;
+$dark-accent-2: #415743;
+$light-accent-1: #bf541f;  // Orange - CTAs
+$light-accent-2: #e6bd76;  // Gold - primary accents
+$light-accent-3: #edded2;  // Cream - subtle glows
+$white: #ffffff;
+$grey-dark: #1a1c1e;
+$grey-mid: #4a4a4a;
+$grey-light: #cccccc;
+
+// ============================================
+// JUST THE DOCS COLOR VARIABLES
+// ============================================
+
+// Body colors
+$body-background-color: $bg-primary;
+$body-heading-color: $white;
+$body-text-color: $light-accent-3;
+
+// Links
+$link-color: $light-accent-2;
+$link-hover-color: $light-accent-1;
+
+// Code
+$code-background-color: rgba($dark-accent-1, 0.5);
+$code-color: $light-accent-2;
+
+// Navigation
+$nav-background-color: rgba($dark-accent-2, 0.4);
+$nav-width: 264px;
+$nav-width-md: 248px;
+
+// Sidebar
+$sidebar-color: $white;
+$nav-child-link-color: $light-accent-3;
+$nav-list-expander-color: $light-accent-2;
+
+// Search
+$search-background-color: rgba($dark-accent-1, 0.5);
+$search-result-preview-color: $light-accent-3;
+
+// Tables
+$table-background-color: rgba($dark-accent-1, 0.3);
+$table-header-background-color: rgba($dark-accent-2, 0.5);
+
+// Buttons
+$btn-primary-color: $light-accent-1;
+$btn-primary-hover-color: darken($light-accent-1, 10%);
+
+// Borders
+$border-color: rgba($light-accent-2, 0.2);
+
+// Feedback (callouts)
+$feedback-color: $light-accent-2;
+
+// Labels
+$label-primary-color: $light-accent-1;
+$label-secondary-color: $dark-accent-2;
+$label-green-color: $light-accent-2;
+
+// ============================================
+// CUSTOM OVERRIDES
+// ============================================
+
+// Glassmorphism effect for cards
+.card, .highlight, pre, code {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+// Header styling
+.site-header {
+  background-color: rgba($dark-accent-2, 0.4);
+  border-bottom: 1px solid rgba($light-accent-2, 0.2);
+}
+
+// Glow effects (portfolio style)
+.site-title:hover,
+.nav-list-link:hover {
+  text-shadow: 0 0 8px rgba($light-accent-2, 0.4);
+}
+
+// Main content area
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+    font-weight: 700;
+  }
+
+  p, li, td, th {
+    color: $light-accent-3;
+  }
+
+  strong {
+    color: $white;
+  }
+
+  a {
+    color: $light-accent-2;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $light-accent-1;
+      text-shadow: 0 0 6px rgba($light-accent-2, 0.3);
+    }
+  }
+}
+
+// Code blocks with portfolio style
+.highlight,
+pre.highlight {
+  background-color: rgba($dark-accent-1, 0.5);
+  border: 1px solid rgba($light-accent-2, 0.2);
+  box-shadow: 0 0 12px rgba($light-accent-3, 0.1);
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+
+  thead {
+    background-color: rgba($dark-accent-2, 0.5);
+    color: $white;
+  }
+
+  tbody tr {
+    background-color: rgba($dark-accent-1, 0.3);
+
+    &:nth-child(2n) {
+      background-color: rgba($dark-accent-1, 0.4);
+    }
+
+    &:hover {
+      background-color: rgba($dark-accent-2, 0.4);
+    }
+  }
+
+  th, td {
+    border-color: rgba($light-accent-2, 0.2);
+    color: $light-accent-3;
+  }
+
+  th {
+    color: $white;
+    font-weight: 700;
+  }
+}
+
+// Buttons with portfolio style
+.btn-primary {
+  background-color: rgba($light-accent-1, 0.3);
+  border-color: rgba($light-accent-1, 0.5);
+  color: $white;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $light-accent-1;
+    border-color: $light-accent-1;
+    box-shadow: 0 5px 15px rgba($light-accent-1, 0.4);
+    transform: scale(1.05);
+  }
+}
+
+// Search bar
+.search-input {
+  background-color: rgba($dark-accent-1, 0.5);
+  border: 1px solid rgba($light-accent-2, 0.3);
+  color: $white;
+
+  &::placeholder {
+    color: rgba($light-accent-3, 0.6);
+  }
+
+  &:focus {
+    border-color: $light-accent-2;
+    box-shadow: 0 0 8px rgba($light-accent-2, 0.3);
+  }
+}
+
+// Footer
+.site-footer {
+  background-color: rgba($grey-dark, 0.6);
+  border-top: 1px solid rgba($light-accent-2, 0.2);
+  color: $light-accent-3;
+}
