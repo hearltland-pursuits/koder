@@ -87,7 +87,7 @@ Comments are notes in your CSS that browsers ignore. They explain what your code
 ```css
 /*
   File: styles.css
-  Author: Joshua Mark Nanninga
+  Author: Joshua P. Hickman
   Date: November 15, 2025
   Description: Main stylesheet for portfolio site
 */

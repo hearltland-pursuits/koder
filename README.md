@@ -296,9 +296,8 @@ css-learning-docs/
 
 ## 👨‍💻 About This Project
 
-**Created by:** Joshua Mark Nanninga
+**Created by:** Joshua P. Hickman
 **Purpose:** Portfolio project demonstrating CSS expertise and technical writing
-**Target Role:** AI Infrastructure Engineer ($80-120K)
 **Skills Demonstrated:**
 - CSS mastery (fundamentals through advanced)
 - Technical documentation
